@@ -18,5 +18,8 @@ target 'Toil Life' do
   pod 'Fabric'
   pod 'Crashlytics'
   pod 'Harpy'
+  pod 'Firebase/Core'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
 
 end

@@ -37,6 +37,11 @@
 	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>This app need access to your camera for posting job images and user profile photo.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

@@ -11,8 +11,9 @@
 #import <CoreLocation/CoreLocation.h>
 #import <UserNotifications/UserNotifications.h>
 #import "Harpy.h"
+@import Firebase;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate,CLLocationManagerDelegate,UNUserNotificationCenterDelegate,HarpyDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,CLLocationManagerDelegate,HarpyDelegate,FIRMessagingDelegate>
 
 @property (strong, nonatomic) MBProgressHUD *progressHUD;
 

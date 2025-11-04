@@ -10,6 +10,7 @@
 #import "Reachability.h"
 #import <Stripe/Stripe.h>
 
+
 //#import <Fabric/Fabric.h>
 //#import <Crashlytics/Crashlytics.h>
 
@@ -35,7 +36,8 @@
     //NetworkEngine *sharedNetwork = [NetworkEngine sharedNetworkEngine];
 
 //    [Fabric with:@[[Crashlytics class]]];
-    
+    // Use Firebase library to configure APIs
+    [FIRApp configure];
     //vinay here-
     [[STPPaymentConfiguration sharedConfiguration] setPublishableKey:stripe_Publish_Key];
     //[STPAPIClient sharedClient].publishableKey = stripe_Publish_Key;
@@ -44,6 +46,9 @@
     [self CurrentLocationIdentifier];
     //Rajat Here
     [self registerForRemoteNotifications];
+    //[self registerForRemoteNotificationsFCM:application];
+    [FIRMessaging messaging].delegate = self;
+    
     storyboard = [self grabStoryboard];
     isLoggedIn = [[NSUserDefaults standardUserDefaults] boolForKey:@"alreadyLoggedIn"];
     isEmployer = [[NSUserDefaults standardUserDefaults] boolForKey:@"isEmployer"];
@@ -260,69 +265,106 @@
     return [hexString copy];
 }
 
-- (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
-{
-    
-    //NSString *token = [[deviceToken description] stringByTrimmingCharactersInSet: [NSCharacterSet characterSetWithCharactersInString:@"<>"]];
-    //vinay here-
-    NSString *token;
-    if (SYSTEM_VERSION_GRATERTHAN_OR_EQUALTO(@"13.0")) {
-        // code here
-         token = [self hexadecimalStringFromData:deviceToken];
-    }else
-    {
-        token = [[deviceToken description] stringByTrimmingCharactersInSet: [NSCharacterSet characterSetWithCharactersInString:@"<>"]];
-    }
-    
-    NSLog(@"token is: %@",token);
-    
-    token = [token stringByReplacingOccurrencesOfString:@" " withString:@""];
-    [[NSUserDefaults standardUserDefaults]setValue:token forKey:deviceId];
-    [[NSUserDefaults standardUserDefaults]synchronize];
-    
-}
+//- (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+//{
+//
+//    //NSString *token = [[deviceToken description] stringByTrimmingCharactersInSet: [NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+//    //vinay here-
+//    NSString *token;
+//    if (SYSTEM_VERSION_GRATERTHAN_OR_EQUALTO(@"13.0")) {
+//        // code here
+//         token = [self hexadecimalStringFromData:deviceToken];
+//    }else
+//    {
+//        token = [[deviceToken description] stringByTrimmingCharactersInSet: [NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+//    }
+//
+//    NSLog(@"token is: %@",token);
+//
+//    token = [token stringByReplacingOccurrencesOfString:@" " withString:@""];
+//    [[NSUserDefaults standardUserDefaults]setValue:token forKey:deviceId];
+//    [[NSUserDefaults standardUserDefaults]synchronize];
+//
+//}
 
 -(void)registerForRemoteNotifications
 {
-     if(SYSTEM_VERSION_GRATERTHAN_OR_EQUALTO(@"10.0"))
-     {
-         //        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
-         //        [center requestAuthorizationWithOptions:(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge)
-         //                              completionHandler:^(BOOL granted, NSError *error)
-         //         {
-         //             if (error == nil) [[UIApplication sharedApplication] registerForRemoteNotifications];
-         //         }];
-         
-         //vinay here -
-         UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
-         center.delegate = self;
-         [center requestAuthorizationWithOptions:(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge) completionHandler:^(BOOL granted, NSError * _Nullable error){
-             if( !error ){
-                 
-                 dispatch_async(dispatch_get_main_queue(), ^{
-                    [[UIApplication sharedApplication] registerForRemoteNotifications];
-                 });
-                 
-             }
-         }];
-     }
-    else {
-        // Code for old versions
-        
-        UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
-                                                        UIUserNotificationTypeBadge |
-                                                        UIUserNotificationTypeSound);
-        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes
-                                                                                 categories:nil];
-        [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
-        [[UIApplication sharedApplication] registerForRemoteNotifications];
-        
-        
-        
-        
+    if ([UNUserNotificationCenter class] != nil) {
+      // iOS 10 or later
+      // For iOS 10 display notification (sent via APNS)
+      [UNUserNotificationCenter currentNotificationCenter].delegate = self;
+      UNAuthorizationOptions authOptions = UNAuthorizationOptionAlert |
+          UNAuthorizationOptionSound | UNAuthorizationOptionBadge;
+      [[UNUserNotificationCenter currentNotificationCenter]
+          requestAuthorizationWithOptions:authOptions
+          completionHandler:^(BOOL granted, NSError * _Nullable error) {
+            // ...
+          }];
+    } else {
+      // iOS 10 notifications aren't available; fall back to iOS 8-9 notifications.
+      UIUserNotificationType allNotificationTypes =
+      (UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge);
+      UIUserNotificationSettings *settings =
+      [UIUserNotificationSettings settingsForTypes:allNotificationTypes categories:nil];
+      [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
     }
-    
+
+    [[UIApplication sharedApplication] registerForRemoteNotifications];
 }
+
+- (void)messaging:(FIRMessaging *)messaging didReceiveRegistrationToken:(NSString *)fcmToken {
+    NSLog(@"FCM registration token: %@", fcmToken);
+    // Notify about received token.
+    [[NSUserDefaults standardUserDefaults]setValue:fcmToken forKey:deviceId];
+    [[NSUserDefaults standardUserDefaults]synchronize];
+//    NSDictionary *dataDict = [NSDictionary dictionaryWithObject:fcmToken forKey:@"token"];
+//    [[NSNotificationCenter defaultCenter] postNotificationName:
+//     @"FCMToken" object:nil userInfo:dataDict];
+    // TODO: If necessary send token to application server.
+    // Note: This callback is fired at each app startup and whenever a new token is generated.
+}
+
+//-(void)registerForRemoteNotifications
+//{
+//     if(SYSTEM_VERSION_GRATERTHAN_OR_EQUALTO(@"10.0"))
+//     {
+//         //        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+//         //        [center requestAuthorizationWithOptions:(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge)
+//         //                              completionHandler:^(BOOL granted, NSError *error)
+//         //         {
+//         //             if (error == nil) [[UIApplication sharedApplication] registerForRemoteNotifications];
+//         //         }];
+//
+//         //vinay here -
+//         UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+//         center.delegate = self;
+//         [center requestAuthorizationWithOptions:(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge) completionHandler:^(BOOL granted, NSError * _Nullable error){
+//             if( !error ){
+//
+//                 dispatch_async(dispatch_get_main_queue(), ^{
+//                    [[UIApplication sharedApplication] registerForRemoteNotifications];
+//                 });
+//
+//             }
+//         }];
+//     }
+//    else {
+//        // Code for old versions
+//
+//        UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
+//                                                        UIUserNotificationTypeBadge |
+//                                                        UIUserNotificationTypeSound);
+//        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes
+//                                                                                 categories:nil];
+//        [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
+//        [[UIApplication sharedApplication] registerForRemoteNotifications];
+//
+//
+//
+//
+//    }
+//
+//}
 
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center
        willPresentNotification:(UNNotification *)notification
@@ -376,6 +418,7 @@
 
 - (void)application:(UIApplication*)application didReceiveRemoteNotification:(NSDictionary*)userInfo
 {
+    NSLog(@"notification info-%@",userInfo);
     
 }
 

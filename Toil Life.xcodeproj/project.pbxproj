@@ -105,6 +105,7 @@
 		786D001220D24A9D00D29F0B /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 786D001120D24A9D00D29F0B /* CardCell.m */; };
 		7878E25B2089BF5800EC71C0 /* libStripe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7878E25A2089BF5800EC71C0 /* libStripe.a */; };
 		7878E25F2089C96C00EC71C0 /* CreditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7878E25E2089C96B00EC71C0 /* CreditCardViewController.m */; };
+		78B5414127A29E2D00F1DF17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78B5414027A29E2D00F1DF17 /* GoogleService-Info.plist */; };
 		8B70F33E2005DADA0083A9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F33D2005DADA0083A9D3 /* Assets.xcassets */; };
 		8B70F3412005DADA0083A9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F33F2005DADA0083A9D3 /* LaunchScreen.storyboard */; };
 		8B70F3442005DADA0083A9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70F3432005DADA0083A9D3 /* main.m */; };
@@ -274,6 +275,7 @@
 		7878E25D2089C96A00EC71C0 /* CreditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardViewController.h; sourceTree = "<group>"; };
 		7878E25E2089C96B00EC71C0 /* CreditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardViewController.m; sourceTree = "<group>"; };
 		7878E2602089CCE500EC71C0 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		78B5414027A29E2D00F1DF17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/untitled folder/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8B70F3312005DADA0083A9D3 /* Toil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B70F33D2005DADA0083A9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B70F3402005DADA0083A9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -1023,6 +1025,7 @@
 			isa = PBXGroup;
 			children = (
 				78112D49203ECE1400EA1BEE /* My Location.gpx */,
+				78B5414027A29E2D00F1DF17 /* GoogleService-Info.plist */,
 				8B70F3332005DADA0083A9D3 /* Toil Life */,
 				8B70F3322005DADA0083A9D3 /* Products */,
 				1141868461533C6D3FF3D853 /* Frameworks */,
@@ -1231,6 +1234,8 @@
 			dependencies = (
 			);
 			name = "Toil Life";
+			packageProductDependencies = (
+			);
 			productName = "Toil Life";
 			productReference = 8B70F3312005DADA0083A9D3 /* Toil.app */;
 			productType = "com.apple.product-type.application";
@@ -1247,7 +1252,7 @@
 				TargetAttributes = {
 					8B70F3302005DADA0083A9D3 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -1265,6 +1270,8 @@
 				Base,
 			);
 			mainGroup = 8B70F3282005DAD90083A9D3;
+			packageReferences = (
+			);
 			productRefGroup = 8B70F3322005DADA0083A9D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1294,6 +1301,7 @@
 				70169B832010703000A6CC32 /* OpenSans-Italic.ttf in Resources */,
 				70169B842010703000A6CC32 /* OpenSans-Light.ttf in Resources */,
 				70169B852010703000A6CC32 /* OpenSans-LightItalic.ttf in Resources */,
+				78B5414127A29E2D00F1DF17 /* GoogleService-Info.plist in Resources */,
 				70169B862010703000A6CC32 /* OpenSans-Regular.ttf in Resources */,
 				701D773320174FA7001F375C /* data1.json in Resources */,
 				701D772220173EA6001F375C /* Eyes_Toil_Profile_picture.png in Resources */,
@@ -1528,6 +1536,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1577,6 +1586,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CODE_SIGN_FLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1588,20 +1598,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Toil Life/Toil Life.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = ZG4AUSCT9T;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = GM6Q695QAY;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Toil Life/ToilLifePrefixHeader.pch";
 				INFOPLIST_FILE = "Toil Life/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.2.4;
+				MARKETING_VERSION = 1.2.5;
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toilLife;
 				PRODUCT_NAME = Toil;
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = toilDist30Dec;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1614,14 +1625,15 @@
 				CODE_SIGN_ENTITLEMENTS = "Toil Life/Toil Life.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = ZG4AUSCT9T;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 58BP7T9B7R;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Toil Life/ToilLifePrefixHeader.pch";
 				INFOPLIST_FILE = "Toil Life/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.2.4;
+				MARKETING_VERSION = 1.2.5;
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toilLife;
 				PRODUCT_NAME = Toil;
 				PROVISIONING_PROFILE = "";

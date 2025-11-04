@@ -33,6 +33,9 @@
 //For Dev
 //#define kBaseURL @"http://54.87.43.135/ToilApiAsmx.asmx/"
 //#define kBaseMultipartUrl @"http://54.87.43.135/"
+//without https
+//#define kBaseURL @"http://api.toil.life/ToilApiAsmx.asmx/"
+//#define kBaseMultipartUrl @"http://api.toil.life/"
 //For Live
 #define kBaseURL @"https://api.toil.life/ToilApiAsmx.asmx/"
 #define kBaseMultipartUrl @"https://api.toil.life/"

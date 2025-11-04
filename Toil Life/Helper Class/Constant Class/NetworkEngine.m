@@ -147,6 +147,7 @@ static  NetworkEngine *sharedNetworkEngine = nil;
      } failure:^(AFHTTPRequestOperation *operation, NSError *error)
      {
          [kAppDelegate hideProgressHUD];
+         NSLog(@"error-%@",error);
          errorBlock(error);
 
      }];
