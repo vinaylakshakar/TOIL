@@ -1,0 +1,12 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Crashlytics/iOS" "${PODS_ROOT}/Fabric/iOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Harpy" "${PODS_ROOT}/Headers/Public/JPSThumbnailAnnotation" "${PODS_ROOT}/Headers/Public/JSQMessagesViewController" "${PODS_ROOT}/Headers/Public/JSQSystemSoundPlayer" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/Stripe" "${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding" "${PODS_ROOT}/Headers/Public/lottie-ios"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/Harpy" "${PODS_CONFIGURATION_BUILD_DIR}/JPSThumbnailAnnotation" "${PODS_CONFIGURATION_BUILD_DIR}/JSQMessagesViewController" "${PODS_CONFIGURATION_BUILD_DIR}/JSQSystemSoundPlayer" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/Reachability" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/Stripe" "${PODS_CONFIGURATION_BUILD_DIR}/TPKeyboardAvoiding" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"Harpy" -l"JPSThumbnailAnnotation" -l"JSQMessagesViewController" -l"JSQSystemSoundPlayer" -l"MBProgressHUD" -l"Reachability" -l"SDWebImage" -l"Stripe" -l"TPKeyboardAvoiding" -l"c++" -l"lottie-ios" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "Contacts" -framework "CoreGraphics" -framework "CoreLocation" -framework "Crashlytics" -framework "Fabric" -framework "Foundation" -framework "ImageIO" -framework "MapKit" -framework "MobileCoreServices" -framework "PassKit" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

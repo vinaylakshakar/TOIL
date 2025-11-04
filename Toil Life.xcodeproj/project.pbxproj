@@ -1,0 +1,1657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA19DE8E6F312C5162CEC30 /* libPods-Toil Life.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB98227420D8FB595154B734 /* libPods-Toil Life.a */; };
+		700DEACF201EE6B20044D843 /* EmployerCompleteJobDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700DEACE201EE6B20044D843 /* EmployerCompleteJobDetailsViewController.m */; };
+		700DEAD720204A650044D843 /* TextViewR.m in Sources */ = {isa = PBXBuildFile; fileRef = 700DEAD620204A650044D843 /* TextViewR.m */; };
+		700F11A92014FA2300D92E9E /* CompletedJobDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F11A82014FA2300D92E9E /* CompletedJobDetailsViewController.m */; };
+		7010C1C120146850001D578C /* NetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7010C1C020146850001D578C /* NetworkEngine.m */; };
+		7010C1C520146D05001D578C /* ToilerHireNowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7010C1C420146D05001D578C /* ToilerHireNowViewController.m */; };
+		70169B7E2010698000A6CC32 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70169B7D2010697800A6CC32 /* Montserrat-Bold.otf */; };
+		70169B7F2010703000A6CC32 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F3702005FA490083A9D3 /* OpenSans-Bold.ttf */; };
+		70169B802010703000A6CC32 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F3752005FA490083A9D3 /* OpenSans-BoldItalic.ttf */; };
+		70169B812010703000A6CC32 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F36C2005FA480083A9D3 /* OpenSans-ExtraBold.ttf */; };
+		70169B822010703000A6CC32 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F36E2005FA480083A9D3 /* OpenSans-ExtraBoldItalic.ttf */; };
+		70169B832010703000A6CC32 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F3742005FA490083A9D3 /* OpenSans-Italic.ttf */; };
+		70169B842010703000A6CC32 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F36D2005FA480083A9D3 /* OpenSans-Light.ttf */; };
+		70169B852010703000A6CC32 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F3732005FA490083A9D3 /* OpenSans-LightItalic.ttf */; };
+		70169B862010703000A6CC32 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F36F2005FA490083A9D3 /* OpenSans-Regular.ttf */; };
+		70169B872010703000A6CC32 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F3722005FA490083A9D3 /* OpenSans-Semibold.ttf */; };
+		70169B882010703000A6CC32 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F3712005FA490083A9D3 /* OpenSans-SemiboldItalic.ttf */; };
+		70169B8B2010963000A6CC32 /* LabelFontBoldSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 70169B8A2010963000A6CC32 /* LabelFontBoldSize.m */; };
+		70169B8E2010965500A6CC32 /* LabrlFontSizeSemiBold.m in Sources */ = {isa = PBXBuildFile; fileRef = 70169B8D2010965500A6CC32 /* LabrlFontSizeSemiBold.m */; };
+		70169B952010970F00A6CC32 /* ButtonFontSizeRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 70169B942010970F00A6CC32 /* ButtonFontSizeRegular.m */; };
+		70169B992010974B00A6CC32 /* ButtonFontSizeSemiBold.m in Sources */ = {isa = PBXBuildFile; fileRef = 70169B982010974B00A6CC32 /* ButtonFontSizeSemiBold.m */; };
+		70169B9E2010A82F00A6CC32 /* TextFieldRegularSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 70169B9D2010A82F00A6CC32 /* TextFieldRegularSize.m */; };
+		70169BA12010A86D00A6CC32 /* TextFieldSemiBoldSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 70169BA02010A86D00A6CC32 /* TextFieldSemiBoldSize.m */; };
+		70169BA52010AA0E00A6CC32 /* TextViewRegularSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 70169BA42010AA0E00A6CC32 /* TextViewRegularSize.m */; };
+		70179B8F200F06A30072AC3F /* BidCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70179B8E200F06A30072AC3F /* BidCollectionViewCell.m */; };
+		70179B93200F13200072AC3F /* BidTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70179B91200F131F0072AC3F /* BidTableViewCell.m */; };
+		7019D146200B54B50068E4E7 /* ToilerTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7019D145200B54B50068E4E7 /* ToilerTabBarViewController.m */; };
+		701C81F82015B75600B82F4B /* ToilerChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701C81F72015B75600B82F4B /* ToilerChatViewController.m */; };
+		701C81FC201609CE00B82F4B /* LoginNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701C81FB201609CE00B82F4B /* LoginNavigationViewController.m */; };
+		701D770C2016F5E3001F375C /* EditProfilePicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D770B2016F5E3001F375C /* EditProfilePicViewController.m */; };
+		701D77102016FBE5001F375C /* EditOccupationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D770F2016FBE5001F375C /* EditOccupationViewController.m */; };
+		701D77142016FF50001F375C /* EditProfileDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D77132016FF50001F375C /* EditProfileDetailsViewController.m */; };
+		701D7718201701E6001F375C /* ToilerEditProfileDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D7717201701E6001F375C /* ToilerEditProfileDetailsViewController.m */; };
+		701D772120173EA6001F375C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 701D771920173EA4001F375C /* data.json */; };
+		701D772220173EA6001F375C /* Eyes_Toil_Profile_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D771B20173EA5001F375C /* Eyes_Toil_Profile_picture.png */; };
+		701D772320173EA6001F375C /* Mouth_Toil_Profile_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D771C20173EA5001F375C /* Mouth_Toil_Profile_picture.png */; };
+		701D772420173EA6001F375C /* Body_Toil_Profile_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D771D20173EA5001F375C /* Body_Toil_Profile_picture.png */; };
+		701D772520173EA6001F375C /* Hat_Toil_Profile_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D771E20173EA5001F375C /* Hat_Toil_Profile_picture.png */; };
+		701D772620173EA6001F375C /* Head_Toil_Profile_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D771F20173EA5001F375C /* Head_Toil_Profile_picture.png */; };
+		701D772720173EA6001F375C /* Background_Toil_Profile_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D772020173EA5001F375C /* Background_Toil_Profile_picture.png */; };
+		701D773320174FA7001F375C /* data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 701D772A20174FA6001F375C /* data1.json */; };
+		701D773420174FA7001F375C /* Star_2_Toil_Launch_Animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D772C20174FA6001F375C /* Star_2_Toil_Launch_Animation.png */; };
+		701D773520174FA7001F375C /* Planet_1_Toil_Launch_Animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D772D20174FA6001F375C /* Planet_1_Toil_Launch_Animation.png */; };
+		701D773620174FA7001F375C /* Planet_2_Toil_Launch_Animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D772E20174FA6001F375C /* Planet_2_Toil_Launch_Animation.png */; };
+		701D773720174FA7001F375C /* Star_1_Toil_Launch_Animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D772F20174FA6001F375C /* Star_1_Toil_Launch_Animation.png */; };
+		701D773820174FA7001F375C /* Rocket_Toil_Launch_Animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D773020174FA6001F375C /* Rocket_Toil_Launch_Animation.png */; };
+		701D773920174FA7001F375C /* Star_3_Toil_Launch_Animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D773120174FA6001F375C /* Star_3_Toil_Launch_Animation.png */; };
+		701D773A20174FA7001F375C /* Star_4_Toil_Launch_Animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 701D773220174FA6001F375C /* Star_4_Toil_Launch_Animation.png */; };
+		701FCC4D200DD14200AF1566 /* ToilerDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701FCC4C200DD14200AF1566 /* ToilerDashboardViewController.m */; };
+		701FCC52200DFE5300AF1566 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701FCC51200DFE5300AF1566 /* MapKit.framework */; };
+		701FCC56200E027600AF1566 /* DashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 701FCC55200E027600AF1566 /* DashboardTableViewCell.m */; };
+		701FCC60200E13D700AF1566 /* InvitesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701FCC5F200E13D700AF1566 /* InvitesViewController.m */; };
+		701FCC64200E193600AF1566 /* ToilerProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701FCC63200E193600AF1566 /* ToilerProfileViewController.m */; };
+		701FCC69200E1B8D00AF1566 /* EmployerProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701FCC68200E1B8D00AF1566 /* EmployerProfileViewController.m */; };
+		701FCC6C200E226400AF1566 /* EmployerBidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701FCC6B200E226400AF1566 /* EmployerBidViewController.m */; };
+		701FCC70200E27FE00AF1566 /* EmployerChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701FCC6F200E27FE00AF1566 /* EmployerChatListViewController.m */; };
+		702A78F82007DE5700C2E7D4 /* EmployerPersonalInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702A78F72007DE5700C2E7D4 /* EmployerPersonalInformationViewController.m */; };
+		702A78FC2007DFCB00C2E7D4 /* EmployerProfilePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702A78FB2007DFCB00C2E7D4 /* EmployerProfilePictureViewController.m */; };
+		702A79002007E26400C2E7D4 /* Onboarding3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702A78FF2007E26400C2E7D4 /* Onboarding3ViewController.m */; };
+		702A79042007E57C00C2E7D4 /* EmployerPaymentSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702A79032007E57C00C2E7D4 /* EmployerPaymentSetupViewController.m */; };
+		702A79082007E6E200C2E7D4 /* EmployerCompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702A79072007E6E200C2E7D4 /* EmployerCompleteViewController.m */; };
+		7037BFAF2011B8410064B229 /* ToilerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7037BFAE2011B8410064B229 /* ToilerDetailsViewController.m */; };
+		704619D12014FD5C002BB09D /* InviteDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704619D02014FD5C002BB09D /* InviteDetailsViewController.m */; };
+		704619D52014FDD0002BB09D /* JobImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704619D42014FDD0002BB09D /* JobImagesViewController.m */; };
+		704619DC20150A26002BB09D /* BidsJobDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704619DB20150A26002BB09D /* BidsJobDetailsViewController.m */; };
+		704DC655200F36B800D72AB9 /* EmployerBidListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704DC654200F36B800D72AB9 /* EmployerBidListViewController.m */; };
+		704DC659200F515400D72AB9 /* LabelFontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 704DC658200F515400D72AB9 /* LabelFontSize.m */; };
+		7052F5A82013BB980083B10B /* EmployerTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052F5A72013BB980083B10B /* EmployerTabbarViewController.m */; };
+		7052F5AB2013BC220083B10B /* EmployerDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052F5AA2013BC220083B10B /* EmployerDashboardViewController.m */; };
+		70D5B52D201A092E00F04649 /* ButtonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B52C201A092E00F04649 /* ButtonCollectionViewCell.m */; };
+		780BAF48202ACDFD00DB135F /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 780BAF46202ACDFD00DB135F /* Utility.m */; };
+		780CA5F7207B36D700EAA8FD /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780CA5F5207B36D700EAA8FD /* UserNotificationsUI.framework */; };
+		780CA5F8207B36D700EAA8FD /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780CA5F6207B36D700EAA8FD /* UserNotifications.framework */; };
+		780DB9F42065239500F6031A /* ToilerActiveJobDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780DB9F32065239500F6031A /* ToilerActiveJobDetailsViewController.m */; };
+		780EA0A0202D9F970085B31F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 780EA09E202D9F960085B31F /* AppDelegate.m */; };
+		780EA0A1202DA5B70085B31F /* StoryboardX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780EA09C202D9E670085B31F /* StoryboardX.storyboard */; };
+		780EA0A4202DA5CE0085B31F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780EA0A2202DA5CE0085B31F /* Main.storyboard */; };
+		780F919F2032F8E2001EACBB /* EmployerBidJobDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F919E2032F8E2001EACBB /* EmployerBidJobDetailsViewController.m */; };
+		780F91C9203300BD001EACBB /* ToilerMyJobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F91C8203300BC001EACBB /* ToilerMyJobsViewController.m */; };
+		780F91CD203300D3001EACBB /* EmployerMyJobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F91CC203300D3001EACBB /* EmployerMyJobsViewController.m */; };
+		780F91D1203300DF001EACBB /* ActiveJobDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F91D0203300DF001EACBB /* ActiveJobDetailsViewController.m */; };
+		780F91D5203300FF001EACBB /* CreateJobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F91D3203300FF001EACBB /* CreateJobViewController.m */; };
+		780F91D920330107001EACBB /* SendInviteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F91D820330107001EACBB /* SendInviteViewController.m */; };
+		780F91DD203302C7001EACBB /* LoginProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F91DC203302C7001EACBB /* LoginProcess.m */; };
+		78112D4B203EDCFD00EA1BEE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78112D4A203EDCFD00EA1BEE /* CoreLocation.framework */; };
+		7821F3002063B59B001390C9 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7821F2FF2063B59B001390C9 /* ChatViewController.m */; };
+		78286F402106F54E0073D021 /* ButtonFontSizeRegular_Black.m in Sources */ = {isa = PBXBuildFile; fileRef = 78286F272106F54E0073D021 /* ButtonFontSizeRegular_Black.m */; };
+		78286F412106F54E0073D021 /* ButtonFontSizeSemiBold_Black.m in Sources */ = {isa = PBXBuildFile; fileRef = 78286F2A2106F54E0073D021 /* ButtonFontSizeSemiBold_Black.m */; };
+		78286F422106F54E0073D021 /* TextViewR_Black.m in Sources */ = {isa = PBXBuildFile; fileRef = 78286F2D2106F54E0073D021 /* TextViewR_Black.m */; };
+		78286F432106F54E0073D021 /* LabelFontBoldSize_Black.m in Sources */ = {isa = PBXBuildFile; fileRef = 78286F302106F54E0073D021 /* LabelFontBoldSize_Black.m */; };
+		78286F442106F54E0073D021 /* TextViewRegularSize_Black.m in Sources */ = {isa = PBXBuildFile; fileRef = 78286F322106F54E0073D021 /* TextViewRegularSize_Black.m */; };
+		78286F452106F54E0073D021 /* TextFieldSemiBoldSize_Black.m in Sources */ = {isa = PBXBuildFile; fileRef = 78286F352106F54E0073D021 /* TextFieldSemiBoldSize_Black.m */; };
+		78286F462106F54E0073D021 /* LabelFontSize_Black.m in Sources */ = {isa = PBXBuildFile; fileRef = 78286F392106F54E0073D021 /* LabelFontSize_Black.m */; };
+		78286F472106F54E0073D021 /* TextFieldRegularSize_Black.m in Sources */ = {isa = PBXBuildFile; fileRef = 78286F3C2106F54E0073D021 /* TextFieldRegularSize_Black.m */; };
+		78286F482106F54E0073D021 /* LabrlFontSizeSemiBold_Black.m in Sources */ = {isa = PBXBuildFile; fileRef = 78286F3F2106F54E0073D021 /* LabrlFontSizeSemiBold_Black.m */; };
+		786D001220D24A9D00D29F0B /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 786D001120D24A9D00D29F0B /* CardCell.m */; };
+		7878E25B2089BF5800EC71C0 /* libStripe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7878E25A2089BF5800EC71C0 /* libStripe.a */; };
+		7878E25F2089C96C00EC71C0 /* CreditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7878E25E2089C96B00EC71C0 /* CreditCardViewController.m */; };
+		8B70F33E2005DADA0083A9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F33D2005DADA0083A9D3 /* Assets.xcassets */; };
+		8B70F3412005DADA0083A9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B70F33F2005DADA0083A9D3 /* LaunchScreen.storyboard */; };
+		8B70F3442005DADA0083A9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70F3432005DADA0083A9D3 /* main.m */; };
+		8B70F36A2005F8AF0083A9D3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70F3692005F8AF0083A9D3 /* LoginViewController.m */; };
+		8B70F379200603A50083A9D3 /* LoginOTPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70F378200603A50083A9D3 /* LoginOTPViewController.m */; };
+		8B70F37D200614D90083A9D3 /* TermsandConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70F37C200614D90083A9D3 /* TermsandConditionsViewController.m */; };
+		8B70F38120061CE40083A9D3 /* TypeofUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70F38020061CE40083A9D3 /* TypeofUsersViewController.m */; };
+		8B70F385200628E50083A9D3 /* ToilerPersonalInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70F384200628E50083A9D3 /* ToilerPersonalInformationViewController.m */; };
+		8B70F3892006348D0083A9D3 /* ToilerProfilePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70F3882006348D0083A9D3 /* ToilerProfilePictureViewController.m */; };
+		8B70F38D20063B630083A9D3 /* ToilerPaymentSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70F38C20063B630083A9D3 /* ToilerPaymentSetupViewController.m */; };
+		8B70F39120063B920083A9D3 /* ToilerCompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70F39020063B920083A9D3 /* ToilerCompleteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46389FF6A241116EAC4A164A /* Pods-Toil Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toil Life.debug.xcconfig"; path = "Target Support Files/Pods-Toil Life/Pods-Toil Life.debug.xcconfig"; sourceTree = "<group>"; };
+		700DEACD201EE6B20044D843 /* EmployerCompleteJobDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerCompleteJobDetailsViewController.h; sourceTree = "<group>"; };
+		700DEACE201EE6B20044D843 /* EmployerCompleteJobDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerCompleteJobDetailsViewController.m; sourceTree = "<group>"; };
+		700DEAD520204A650044D843 /* TextViewR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewR.h; sourceTree = "<group>"; };
+		700DEAD620204A650044D843 /* TextViewR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewR.m; sourceTree = "<group>"; };
+		700F11A72014FA2300D92E9E /* CompletedJobDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompletedJobDetailsViewController.h; sourceTree = "<group>"; };
+		700F11A82014FA2300D92E9E /* CompletedJobDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompletedJobDetailsViewController.m; sourceTree = "<group>"; };
+		7010C1BF20146850001D578C /* NetworkEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkEngine.h; sourceTree = "<group>"; };
+		7010C1C020146850001D578C /* NetworkEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkEngine.m; sourceTree = "<group>"; };
+		7010C1C320146D05001D578C /* ToilerHireNowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerHireNowViewController.h; sourceTree = "<group>"; };
+		7010C1C420146D05001D578C /* ToilerHireNowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerHireNowViewController.m; sourceTree = "<group>"; };
+		70169B7D2010697800A6CC32 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		70169B892010963000A6CC32 /* LabelFontBoldSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelFontBoldSize.h; sourceTree = "<group>"; };
+		70169B8A2010963000A6CC32 /* LabelFontBoldSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelFontBoldSize.m; sourceTree = "<group>"; };
+		70169B8C2010965500A6CC32 /* LabrlFontSizeSemiBold.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabrlFontSizeSemiBold.h; sourceTree = "<group>"; };
+		70169B8D2010965500A6CC32 /* LabrlFontSizeSemiBold.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabrlFontSizeSemiBold.m; sourceTree = "<group>"; };
+		70169B932010970F00A6CC32 /* ButtonFontSizeRegular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonFontSizeRegular.h; sourceTree = "<group>"; };
+		70169B942010970F00A6CC32 /* ButtonFontSizeRegular.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonFontSizeRegular.m; sourceTree = "<group>"; };
+		70169B972010974B00A6CC32 /* ButtonFontSizeSemiBold.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonFontSizeSemiBold.h; sourceTree = "<group>"; };
+		70169B982010974B00A6CC32 /* ButtonFontSizeSemiBold.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonFontSizeSemiBold.m; sourceTree = "<group>"; };
+		70169B9C2010A82F00A6CC32 /* TextFieldRegularSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldRegularSize.h; sourceTree = "<group>"; };
+		70169B9D2010A82F00A6CC32 /* TextFieldRegularSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldRegularSize.m; sourceTree = "<group>"; };
+		70169B9F2010A86D00A6CC32 /* TextFieldSemiBoldSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldSemiBoldSize.h; sourceTree = "<group>"; };
+		70169BA02010A86D00A6CC32 /* TextFieldSemiBoldSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldSemiBoldSize.m; sourceTree = "<group>"; };
+		70169BA32010AA0E00A6CC32 /* TextViewRegularSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewRegularSize.h; sourceTree = "<group>"; };
+		70169BA42010AA0E00A6CC32 /* TextViewRegularSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewRegularSize.m; sourceTree = "<group>"; };
+		70179B8D200F06A30072AC3F /* BidCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BidCollectionViewCell.h; sourceTree = "<group>"; };
+		70179B8E200F06A30072AC3F /* BidCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BidCollectionViewCell.m; sourceTree = "<group>"; };
+		70179B91200F131F0072AC3F /* BidTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BidTableViewCell.m; sourceTree = "<group>"; };
+		70179B92200F131F0072AC3F /* BidTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BidTableViewCell.h; sourceTree = "<group>"; };
+		7019D144200B54B50068E4E7 /* ToilerTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerTabBarViewController.h; sourceTree = "<group>"; };
+		7019D145200B54B50068E4E7 /* ToilerTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerTabBarViewController.m; sourceTree = "<group>"; };
+		701C81F62015B75600B82F4B /* ToilerChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerChatViewController.h; sourceTree = "<group>"; };
+		701C81F72015B75600B82F4B /* ToilerChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerChatViewController.m; sourceTree = "<group>"; };
+		701C81FA201609CE00B82F4B /* LoginNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginNavigationViewController.h; sourceTree = "<group>"; };
+		701C81FB201609CE00B82F4B /* LoginNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginNavigationViewController.m; sourceTree = "<group>"; };
+		701D770A2016F5E3001F375C /* EditProfilePicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditProfilePicViewController.h; sourceTree = "<group>"; };
+		701D770B2016F5E3001F375C /* EditProfilePicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditProfilePicViewController.m; sourceTree = "<group>"; };
+		701D770E2016FBE5001F375C /* EditOccupationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditOccupationViewController.h; sourceTree = "<group>"; };
+		701D770F2016FBE5001F375C /* EditOccupationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditOccupationViewController.m; sourceTree = "<group>"; };
+		701D77122016FF50001F375C /* EditProfileDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditProfileDetailsViewController.h; sourceTree = "<group>"; };
+		701D77132016FF50001F375C /* EditProfileDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditProfileDetailsViewController.m; sourceTree = "<group>"; };
+		701D7716201701E6001F375C /* ToilerEditProfileDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerEditProfileDetailsViewController.h; sourceTree = "<group>"; };
+		701D7717201701E6001F375C /* ToilerEditProfileDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerEditProfileDetailsViewController.m; sourceTree = "<group>"; };
+		701D771920173EA4001F375C /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		701D771B20173EA5001F375C /* Eyes_Toil_Profile_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eyes_Toil_Profile_picture.png; sourceTree = "<group>"; };
+		701D771C20173EA5001F375C /* Mouth_Toil_Profile_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mouth_Toil_Profile_picture.png; sourceTree = "<group>"; };
+		701D771D20173EA5001F375C /* Body_Toil_Profile_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Body_Toil_Profile_picture.png; sourceTree = "<group>"; };
+		701D771E20173EA5001F375C /* Hat_Toil_Profile_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hat_Toil_Profile_picture.png; sourceTree = "<group>"; };
+		701D771F20173EA5001F375C /* Head_Toil_Profile_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Head_Toil_Profile_picture.png; sourceTree = "<group>"; };
+		701D772020173EA5001F375C /* Background_Toil_Profile_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_Toil_Profile_picture.png; sourceTree = "<group>"; };
+		701D772A20174FA6001F375C /* data1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data1.json; sourceTree = "<group>"; };
+		701D772C20174FA6001F375C /* Star_2_Toil_Launch_Animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_2_Toil_Launch_Animation.png; sourceTree = "<group>"; };
+		701D772D20174FA6001F375C /* Planet_1_Toil_Launch_Animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Planet_1_Toil_Launch_Animation.png; sourceTree = "<group>"; };
+		701D772E20174FA6001F375C /* Planet_2_Toil_Launch_Animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Planet_2_Toil_Launch_Animation.png; sourceTree = "<group>"; };
+		701D772F20174FA6001F375C /* Star_1_Toil_Launch_Animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_1_Toil_Launch_Animation.png; sourceTree = "<group>"; };
+		701D773020174FA6001F375C /* Rocket_Toil_Launch_Animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rocket_Toil_Launch_Animation.png; sourceTree = "<group>"; };
+		701D773120174FA6001F375C /* Star_3_Toil_Launch_Animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_3_Toil_Launch_Animation.png; sourceTree = "<group>"; };
+		701D773220174FA6001F375C /* Star_4_Toil_Launch_Animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_4_Toil_Launch_Animation.png; sourceTree = "<group>"; };
+		701FCC4B200DD14200AF1566 /* ToilerDashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerDashboardViewController.h; sourceTree = "<group>"; };
+		701FCC4C200DD14200AF1566 /* ToilerDashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerDashboardViewController.m; sourceTree = "<group>"; };
+		701FCC51200DFE5300AF1566 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		701FCC54200E027600AF1566 /* DashboardTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashboardTableViewCell.h; sourceTree = "<group>"; };
+		701FCC55200E027600AF1566 /* DashboardTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashboardTableViewCell.m; sourceTree = "<group>"; };
+		701FCC5E200E13D700AF1566 /* InvitesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvitesViewController.h; sourceTree = "<group>"; };
+		701FCC5F200E13D700AF1566 /* InvitesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvitesViewController.m; sourceTree = "<group>"; };
+		701FCC62200E193600AF1566 /* ToilerProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerProfileViewController.h; sourceTree = "<group>"; };
+		701FCC63200E193600AF1566 /* ToilerProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerProfileViewController.m; sourceTree = "<group>"; };
+		701FCC67200E1B8D00AF1566 /* EmployerProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerProfileViewController.h; sourceTree = "<group>"; };
+		701FCC68200E1B8D00AF1566 /* EmployerProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerProfileViewController.m; sourceTree = "<group>"; };
+		701FCC6A200E226400AF1566 /* EmployerBidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerBidViewController.h; sourceTree = "<group>"; };
+		701FCC6B200E226400AF1566 /* EmployerBidViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerBidViewController.m; sourceTree = "<group>"; };
+		701FCC6E200E27FE00AF1566 /* EmployerChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerChatListViewController.h; sourceTree = "<group>"; };
+		701FCC6F200E27FE00AF1566 /* EmployerChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerChatListViewController.m; sourceTree = "<group>"; };
+		702A78F62007DE5700C2E7D4 /* EmployerPersonalInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerPersonalInformationViewController.h; sourceTree = "<group>"; };
+		702A78F72007DE5700C2E7D4 /* EmployerPersonalInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerPersonalInformationViewController.m; sourceTree = "<group>"; };
+		702A78FA2007DFCB00C2E7D4 /* EmployerProfilePictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerProfilePictureViewController.h; sourceTree = "<group>"; };
+		702A78FB2007DFCB00C2E7D4 /* EmployerProfilePictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerProfilePictureViewController.m; sourceTree = "<group>"; };
+		702A78FE2007E26400C2E7D4 /* Onboarding3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Onboarding3ViewController.h; sourceTree = "<group>"; };
+		702A78FF2007E26400C2E7D4 /* Onboarding3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Onboarding3ViewController.m; sourceTree = "<group>"; };
+		702A79022007E57C00C2E7D4 /* EmployerPaymentSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerPaymentSetupViewController.h; sourceTree = "<group>"; };
+		702A79032007E57C00C2E7D4 /* EmployerPaymentSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerPaymentSetupViewController.m; sourceTree = "<group>"; };
+		702A79062007E6E200C2E7D4 /* EmployerCompleteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerCompleteViewController.h; sourceTree = "<group>"; };
+		702A79072007E6E200C2E7D4 /* EmployerCompleteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerCompleteViewController.m; sourceTree = "<group>"; };
+		7037BFAD2011B8410064B229 /* ToilerDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerDetailsViewController.h; sourceTree = "<group>"; };
+		7037BFAE2011B8410064B229 /* ToilerDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerDetailsViewController.m; sourceTree = "<group>"; };
+		704619CF2014FD5C002BB09D /* InviteDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InviteDetailsViewController.h; sourceTree = "<group>"; };
+		704619D02014FD5C002BB09D /* InviteDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InviteDetailsViewController.m; sourceTree = "<group>"; };
+		704619D32014FDD0002BB09D /* JobImagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobImagesViewController.h; sourceTree = "<group>"; };
+		704619D42014FDD0002BB09D /* JobImagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobImagesViewController.m; sourceTree = "<group>"; };
+		704619DA20150A26002BB09D /* BidsJobDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BidsJobDetailsViewController.h; sourceTree = "<group>"; };
+		704619DB20150A26002BB09D /* BidsJobDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BidsJobDetailsViewController.m; sourceTree = "<group>"; };
+		704DC653200F36B800D72AB9 /* EmployerBidListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerBidListViewController.h; sourceTree = "<group>"; };
+		704DC654200F36B800D72AB9 /* EmployerBidListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerBidListViewController.m; sourceTree = "<group>"; };
+		704DC657200F515400D72AB9 /* LabelFontSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelFontSize.h; sourceTree = "<group>"; };
+		704DC658200F515400D72AB9 /* LabelFontSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelFontSize.m; sourceTree = "<group>"; };
+		7052F5A62013BB980083B10B /* EmployerTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerTabbarViewController.h; sourceTree = "<group>"; };
+		7052F5A72013BB980083B10B /* EmployerTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerTabbarViewController.m; sourceTree = "<group>"; };
+		7052F5A92013BC220083B10B /* EmployerDashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployerDashboardViewController.h; sourceTree = "<group>"; };
+		7052F5AA2013BC220083B10B /* EmployerDashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerDashboardViewController.m; sourceTree = "<group>"; };
+		70D5B52B201A092E00F04649 /* ButtonCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonCollectionViewCell.h; sourceTree = "<group>"; };
+		70D5B52C201A092E00F04649 /* ButtonCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonCollectionViewCell.m; sourceTree = "<group>"; };
+		780BAF46202ACDFD00DB135F /* Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		780BAF47202ACDFD00DB135F /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		780CA5F5207B36D700EAA8FD /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		780CA5F6207B36D700EAA8FD /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		780CA5F9207B36E600EAA8FD /* Toil Life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Toil Life.entitlements"; sourceTree = "<group>"; };
+		780DB9F22065239400F6031A /* ToilerActiveJobDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToilerActiveJobDetailsViewController.h; sourceTree = "<group>"; };
+		780DB9F32065239500F6031A /* ToilerActiveJobDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToilerActiveJobDetailsViewController.m; sourceTree = "<group>"; };
+		780EA09C202D9E670085B31F /* StoryboardX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardX.storyboard; sourceTree = "<group>"; };
+		780EA09E202D9F960085B31F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		780EA09F202D9F960085B31F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		780EA0A3202DA5CE0085B31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Toil Life/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		780F919D2032F8E2001EACBB /* EmployerBidJobDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployerBidJobDetailsViewController.h; sourceTree = "<group>"; };
+		780F919E2032F8E2001EACBB /* EmployerBidJobDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployerBidJobDetailsViewController.m; sourceTree = "<group>"; };
+		780F91C7203300BC001EACBB /* ToilerMyJobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToilerMyJobsViewController.h; sourceTree = "<group>"; };
+		780F91C8203300BC001EACBB /* ToilerMyJobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToilerMyJobsViewController.m; sourceTree = "<group>"; };
+		780F91CB203300D3001EACBB /* EmployerMyJobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployerMyJobsViewController.h; sourceTree = "<group>"; };
+		780F91CC203300D3001EACBB /* EmployerMyJobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployerMyJobsViewController.m; sourceTree = "<group>"; };
+		780F91CF203300DF001EACBB /* ActiveJobDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveJobDetailsViewController.h; sourceTree = "<group>"; };
+		780F91D0203300DF001EACBB /* ActiveJobDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveJobDetailsViewController.m; sourceTree = "<group>"; };
+		780F91D3203300FF001EACBB /* CreateJobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateJobViewController.m; sourceTree = "<group>"; };
+		780F91D4203300FF001EACBB /* CreateJobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateJobViewController.h; sourceTree = "<group>"; };
+		780F91D720330107001EACBB /* SendInviteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendInviteViewController.h; sourceTree = "<group>"; };
+		780F91D820330107001EACBB /* SendInviteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendInviteViewController.m; sourceTree = "<group>"; };
+		780F91DB203302C7001EACBB /* LoginProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginProcess.h; sourceTree = "<group>"; };
+		780F91DC203302C7001EACBB /* LoginProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginProcess.m; sourceTree = "<group>"; };
+		78112D49203ECE1400EA1BEE /* My Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "My Location.gpx"; sourceTree = "<group>"; };
+		78112D4A203EDCFD00EA1BEE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7821F2FE2063B59A001390C9 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		7821F2FF2063B59B001390C9 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		78286F262106F54E0073D021 /* ButtonFontSizeRegular_Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonFontSizeRegular_Black.h; sourceTree = "<group>"; };
+		78286F272106F54E0073D021 /* ButtonFontSizeRegular_Black.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonFontSizeRegular_Black.m; sourceTree = "<group>"; };
+		78286F292106F54E0073D021 /* ButtonFontSizeSemiBold_Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonFontSizeSemiBold_Black.h; sourceTree = "<group>"; };
+		78286F2A2106F54E0073D021 /* ButtonFontSizeSemiBold_Black.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonFontSizeSemiBold_Black.m; sourceTree = "<group>"; };
+		78286F2C2106F54E0073D021 /* TextViewR_Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewR_Black.h; sourceTree = "<group>"; };
+		78286F2D2106F54E0073D021 /* TextViewR_Black.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewR_Black.m; sourceTree = "<group>"; };
+		78286F2F2106F54E0073D021 /* LabelFontBoldSize_Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelFontBoldSize_Black.h; sourceTree = "<group>"; };
+		78286F302106F54E0073D021 /* LabelFontBoldSize_Black.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelFontBoldSize_Black.m; sourceTree = "<group>"; };
+		78286F322106F54E0073D021 /* TextViewRegularSize_Black.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewRegularSize_Black.m; sourceTree = "<group>"; };
+		78286F332106F54E0073D021 /* TextViewRegularSize_Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewRegularSize_Black.h; sourceTree = "<group>"; };
+		78286F352106F54E0073D021 /* TextFieldSemiBoldSize_Black.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldSemiBoldSize_Black.m; sourceTree = "<group>"; };
+		78286F362106F54E0073D021 /* TextFieldSemiBoldSize_Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldSemiBoldSize_Black.h; sourceTree = "<group>"; };
+		78286F382106F54E0073D021 /* LabelFontSize_Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelFontSize_Black.h; sourceTree = "<group>"; };
+		78286F392106F54E0073D021 /* LabelFontSize_Black.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelFontSize_Black.m; sourceTree = "<group>"; };
+		78286F3B2106F54E0073D021 /* TextFieldRegularSize_Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldRegularSize_Black.h; sourceTree = "<group>"; };
+		78286F3C2106F54E0073D021 /* TextFieldRegularSize_Black.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldRegularSize_Black.m; sourceTree = "<group>"; };
+		78286F3E2106F54E0073D021 /* LabrlFontSizeSemiBold_Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabrlFontSizeSemiBold_Black.h; sourceTree = "<group>"; };
+		78286F3F2106F54E0073D021 /* LabrlFontSizeSemiBold_Black.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabrlFontSizeSemiBold_Black.m; sourceTree = "<group>"; };
+		786D001020D24A9D00D29F0B /* CardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		786D001120D24A9D00D29F0B /* CardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		7878E25A2089BF5800EC71C0 /* libStripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libStripe.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7878E25D2089C96A00EC71C0 /* CreditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardViewController.h; sourceTree = "<group>"; };
+		7878E25E2089C96B00EC71C0 /* CreditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardViewController.m; sourceTree = "<group>"; };
+		7878E2602089CCE500EC71C0 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		8B70F3312005DADA0083A9D3 /* Toil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B70F33D2005DADA0083A9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B70F3402005DADA0083A9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B70F3422005DADA0083A9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B70F3432005DADA0083A9D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B70F3682005F8AF0083A9D3 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8B70F3692005F8AF0083A9D3 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8B70F36C2005FA480083A9D3 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8B70F36D2005FA480083A9D3 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		8B70F36E2005FA480083A9D3 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		8B70F36F2005FA490083A9D3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		8B70F3702005FA490083A9D3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		8B70F3712005FA490083A9D3 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		8B70F3722005FA490083A9D3 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		8B70F3732005FA490083A9D3 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		8B70F3742005FA490083A9D3 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		8B70F3752005FA490083A9D3 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8B70F377200603A50083A9D3 /* LoginOTPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginOTPViewController.h; sourceTree = "<group>"; };
+		8B70F378200603A50083A9D3 /* LoginOTPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginOTPViewController.m; sourceTree = "<group>"; };
+		8B70F37B200614D90083A9D3 /* TermsandConditionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermsandConditionsViewController.h; sourceTree = "<group>"; };
+		8B70F37C200614D90083A9D3 /* TermsandConditionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermsandConditionsViewController.m; sourceTree = "<group>"; };
+		8B70F37F20061CE40083A9D3 /* TypeofUsersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeofUsersViewController.h; sourceTree = "<group>"; };
+		8B70F38020061CE40083A9D3 /* TypeofUsersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeofUsersViewController.m; sourceTree = "<group>"; };
+		8B70F383200628E50083A9D3 /* ToilerPersonalInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerPersonalInformationViewController.h; sourceTree = "<group>"; };
+		8B70F384200628E50083A9D3 /* ToilerPersonalInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerPersonalInformationViewController.m; sourceTree = "<group>"; };
+		8B70F3872006348D0083A9D3 /* ToilerProfilePictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerProfilePictureViewController.h; sourceTree = "<group>"; };
+		8B70F3882006348D0083A9D3 /* ToilerProfilePictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerProfilePictureViewController.m; sourceTree = "<group>"; };
+		8B70F38B20063B630083A9D3 /* ToilerPaymentSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerPaymentSetupViewController.h; sourceTree = "<group>"; };
+		8B70F38C20063B630083A9D3 /* ToilerPaymentSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerPaymentSetupViewController.m; sourceTree = "<group>"; };
+		8B70F38F20063B920083A9D3 /* ToilerCompleteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilerCompleteViewController.h; sourceTree = "<group>"; };
+		8B70F39020063B920083A9D3 /* ToilerCompleteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToilerCompleteViewController.m; sourceTree = "<group>"; };
+		8B7EFDD120071B7800D1A259 /* ToilLifePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToilLifePrefixHeader.pch; sourceTree = "<group>"; };
+		CB98227420D8FB595154B734 /* libPods-Toil Life.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Toil Life.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F818FE67C4CAC1F4856CD3C0 /* Pods-Toil Life.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toil Life.release.xcconfig"; path = "Target Support Files/Pods-Toil Life/Pods-Toil Life.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B70F32E2005DADA0083A9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7878E25B2089BF5800EC71C0 /* libStripe.a in Frameworks */,
+				780CA5F7207B36D700EAA8FD /* UserNotificationsUI.framework in Frameworks */,
+				780CA5F8207B36D700EAA8FD /* UserNotifications.framework in Frameworks */,
+				78112D4B203EDCFD00EA1BEE /* CoreLocation.framework in Frameworks */,
+				701FCC52200DFE5300AF1566 /* MapKit.framework in Frameworks */,
+				0FA19DE8E6F312C5162CEC30 /* libPods-Toil Life.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1141868461533C6D3FF3D853 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7878E25A2089BF5800EC71C0 /* libStripe.a */,
+				780CA5F6207B36D700EAA8FD /* UserNotifications.framework */,
+				780CA5F5207B36D700EAA8FD /* UserNotificationsUI.framework */,
+				78112D4A203EDCFD00EA1BEE /* CoreLocation.framework */,
+				701FCC51200DFE5300AF1566 /* MapKit.framework */,
+				CB98227420D8FB595154B734 /* libPods-Toil Life.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		700DEACC201EE6610044D843 /* Employer Complete Job Details */ = {
+			isa = PBXGroup;
+			children = (
+				700DEACD201EE6B20044D843 /* EmployerCompleteJobDetailsViewController.h */,
+				700DEACE201EE6B20044D843 /* EmployerCompleteJobDetailsViewController.m */,
+			);
+			name = "Employer Complete Job Details";
+			path = EmployerComplete;
+			sourceTree = "<group>";
+		};
+		700DEAD0201EE8F40044D843 /* Employer Bid Job Details */ = {
+			isa = PBXGroup;
+			children = (
+				780F919D2032F8E2001EACBB /* EmployerBidJobDetailsViewController.h */,
+				780F919E2032F8E2001EACBB /* EmployerBidJobDetailsViewController.m */,
+			);
+			path = "Employer Bid Job Details";
+			sourceTree = "<group>";
+		};
+		700DEAD420204A250044D843 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				700DEAD520204A650044D843 /* TextViewR.h */,
+				700DEAD620204A650044D843 /* TextViewR.m */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		700F11A62014FA0400D92E9E /* Completed Job Details */ = {
+			isa = PBXGroup;
+			children = (
+				700F11A72014FA2300D92E9E /* CompletedJobDetailsViewController.h */,
+				700F11A82014FA2300D92E9E /* CompletedJobDetailsViewController.m */,
+			);
+			path = "Completed Job Details";
+			sourceTree = "<group>";
+		};
+		700F11AA2014FA3400D92E9E /* Bids Job Details */ = {
+			isa = PBXGroup;
+			children = (
+				704619DA20150A26002BB09D /* BidsJobDetailsViewController.h */,
+				704619DB20150A26002BB09D /* BidsJobDetailsViewController.m */,
+			);
+			path = "Bids Job Details";
+			sourceTree = "<group>";
+		};
+		7010C1BD20146706001D578C /* Helper Class */ = {
+			isa = PBXGroup;
+			children = (
+				780F91DA203302C7001EACBB /* Helper Validation Class */,
+				7010C1BE20146718001D578C /* Constant Class */,
+			);
+			path = "Helper Class";
+			sourceTree = "<group>";
+		};
+		7010C1BE20146718001D578C /* Constant Class */ = {
+			isa = PBXGroup;
+			children = (
+				7010C1BF20146850001D578C /* NetworkEngine.h */,
+				7010C1C020146850001D578C /* NetworkEngine.m */,
+			);
+			path = "Constant Class";
+			sourceTree = "<group>";
+		};
+		7010C1C220146CCA001D578C /* Toiler Hire Now View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7010C1C320146D05001D578C /* ToilerHireNowViewController.h */,
+				7010C1C420146D05001D578C /* ToilerHireNowViewController.m */,
+			);
+			path = "Toiler Hire Now View Controller";
+			sourceTree = "<group>";
+		};
+		70169B8F2010965800A6CC32 /* Label Font Size Regular */ = {
+			isa = PBXGroup;
+			children = (
+				704DC657200F515400D72AB9 /* LabelFontSize.h */,
+				704DC658200F515400D72AB9 /* LabelFontSize.m */,
+			);
+			path = "Label Font Size Regular";
+			sourceTree = "<group>";
+		};
+		70169B902010967800A6CC32 /* Label Font Size Bold */ = {
+			isa = PBXGroup;
+			children = (
+				70169B892010963000A6CC32 /* LabelFontBoldSize.h */,
+				70169B8A2010963000A6CC32 /* LabelFontBoldSize.m */,
+			);
+			path = "Label Font Size Bold";
+			sourceTree = "<group>";
+		};
+		70169B912010969000A6CC32 /* Label Font Size Semi-Bold */ = {
+			isa = PBXGroup;
+			children = (
+				70169B8C2010965500A6CC32 /* LabrlFontSizeSemiBold.h */,
+				70169B8D2010965500A6CC32 /* LabrlFontSizeSemiBold.m */,
+			);
+			path = "Label Font Size Semi-Bold";
+			sourceTree = "<group>";
+		};
+		70169B92201096BA00A6CC32 /* Button Font Size Regular */ = {
+			isa = PBXGroup;
+			children = (
+				70169B932010970F00A6CC32 /* ButtonFontSizeRegular.h */,
+				70169B942010970F00A6CC32 /* ButtonFontSizeRegular.m */,
+			);
+			path = "Button Font Size Regular";
+			sourceTree = "<group>";
+		};
+		70169B962010971A00A6CC32 /* Button Font Size Semi-Bold */ = {
+			isa = PBXGroup;
+			children = (
+				70169B972010974B00A6CC32 /* ButtonFontSizeSemiBold.h */,
+				70169B982010974B00A6CC32 /* ButtonFontSizeSemiBold.m */,
+			);
+			path = "Button Font Size Semi-Bold";
+			sourceTree = "<group>";
+		};
+		70169B9A2010A7E500A6CC32 /* TextField Regular Size */ = {
+			isa = PBXGroup;
+			children = (
+				70169B9C2010A82F00A6CC32 /* TextFieldRegularSize.h */,
+				70169B9D2010A82F00A6CC32 /* TextFieldRegularSize.m */,
+			);
+			path = "TextField Regular Size";
+			sourceTree = "<group>";
+		};
+		70169B9B2010A7FE00A6CC32 /* TextField Semi-Bold */ = {
+			isa = PBXGroup;
+			children = (
+				70169B9F2010A86D00A6CC32 /* TextFieldSemiBoldSize.h */,
+				70169BA02010A86D00A6CC32 /* TextFieldSemiBoldSize.m */,
+			);
+			path = "TextField Semi-Bold";
+			sourceTree = "<group>";
+		};
+		70169BA22010A9E500A6CC32 /* TextView Regular */ = {
+			isa = PBXGroup;
+			children = (
+				70169BA32010AA0E00A6CC32 /* TextViewRegularSize.h */,
+				70169BA42010AA0E00A6CC32 /* TextViewRegularSize.m */,
+			);
+			path = "TextView Regular";
+			sourceTree = "<group>";
+		};
+		70179B8C200F06710072AC3F /* Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				70D5B52A201A090700F04649 /* Button Collection View Cell */,
+				70179B90200F06AD0072AC3F /* Bid Collection View Cell */,
+			);
+			path = "Collection View Cell";
+			sourceTree = "<group>";
+		};
+		70179B90200F06AD0072AC3F /* Bid Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				70179B8D200F06A30072AC3F /* BidCollectionViewCell.h */,
+				70179B8E200F06A30072AC3F /* BidCollectionViewCell.m */,
+			);
+			path = "Bid Collection View Cell";
+			sourceTree = "<group>";
+		};
+		7019D143200B54820068E4E7 /* TabBar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7052F5A52013BB4C0083B10B /* Employer Tabar */,
+				7052F5A42013BB360083B10B /* Toiler Tabbar */,
+			);
+			path = "TabBar Controller";
+			sourceTree = "<group>";
+		};
+		701C81F52015B73B00B82F4B /* Toiler Chat */ = {
+			isa = PBXGroup;
+			children = (
+				701C81F62015B75600B82F4B /* ToilerChatViewController.h */,
+				701C81F72015B75600B82F4B /* ToilerChatViewController.m */,
+			);
+			path = "Toiler Chat";
+			sourceTree = "<group>";
+		};
+		701C81F9201609A000B82F4B /* Navigation Controller Class */ = {
+			isa = PBXGroup;
+			children = (
+				701C81FA201609CE00B82F4B /* LoginNavigationViewController.h */,
+				701C81FB201609CE00B82F4B /* LoginNavigationViewController.m */,
+			);
+			path = "Navigation Controller Class";
+			sourceTree = "<group>";
+		};
+		701D77092016F5B6001F375C /* Edit ProfilePic */ = {
+			isa = PBXGroup;
+			children = (
+				701D770A2016F5E3001F375C /* EditProfilePicViewController.h */,
+				701D770B2016F5E3001F375C /* EditProfilePicViewController.m */,
+			);
+			path = "Edit ProfilePic";
+			sourceTree = "<group>";
+		};
+		701D770D2016FB8C001F375C /* Edit Occupation */ = {
+			isa = PBXGroup;
+			children = (
+				701D770E2016FBE5001F375C /* EditOccupationViewController.h */,
+				701D770F2016FBE5001F375C /* EditOccupationViewController.m */,
+			);
+			path = "Edit Occupation";
+			sourceTree = "<group>";
+		};
+		701D77112016FF21001F375C /* Edit Profile Details */ = {
+			isa = PBXGroup;
+			children = (
+				701D77122016FF50001F375C /* EditProfileDetailsViewController.h */,
+				701D77132016FF50001F375C /* EditProfileDetailsViewController.m */,
+			);
+			path = "Edit Profile Details";
+			sourceTree = "<group>";
+		};
+		701D7715201701D0001F375C /* Toiler Edit Profile Details */ = {
+			isa = PBXGroup;
+			children = (
+				701D7716201701E6001F375C /* ToilerEditProfileDetailsViewController.h */,
+				701D7717201701E6001F375C /* ToilerEditProfileDetailsViewController.m */,
+			);
+			path = "Toiler Edit Profile Details";
+			sourceTree = "<group>";
+		};
+		701D771A20173EA5001F375C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				701D771B20173EA5001F375C /* Eyes_Toil_Profile_picture.png */,
+				701D771C20173EA5001F375C /* Mouth_Toil_Profile_picture.png */,
+				701D771D20173EA5001F375C /* Body_Toil_Profile_picture.png */,
+				701D771E20173EA5001F375C /* Hat_Toil_Profile_picture.png */,
+				701D771F20173EA5001F375C /* Head_Toil_Profile_picture.png */,
+				701D772020173EA5001F375C /* Background_Toil_Profile_picture.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		701D772820174F4B001F375C /* Profile LOTTIE */ = {
+			isa = PBXGroup;
+			children = (
+				701D771920173EA4001F375C /* data.json */,
+				701D771A20173EA5001F375C /* images */,
+			);
+			path = "Profile LOTTIE";
+			sourceTree = "<group>";
+		};
+		701D772920174F71001F375C /* Complete Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				701D772A20174FA6001F375C /* data1.json */,
+				701D772B20174FA6001F375C /* images */,
+			);
+			path = "Complete Lottie";
+			sourceTree = "<group>";
+		};
+		701D772B20174FA6001F375C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				701D772C20174FA6001F375C /* Star_2_Toil_Launch_Animation.png */,
+				701D772D20174FA6001F375C /* Planet_1_Toil_Launch_Animation.png */,
+				701D772E20174FA6001F375C /* Planet_2_Toil_Launch_Animation.png */,
+				701D772F20174FA6001F375C /* Star_1_Toil_Launch_Animation.png */,
+				701D773020174FA6001F375C /* Rocket_Toil_Launch_Animation.png */,
+				701D773120174FA6001F375C /* Star_3_Toil_Launch_Animation.png */,
+				701D773220174FA6001F375C /* Star_4_Toil_Launch_Animation.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		701FCC4A200DD10800AF1566 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				701FCC4B200DD14200AF1566 /* ToilerDashboardViewController.h */,
+				701FCC4C200DD14200AF1566 /* ToilerDashboardViewController.m */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		701FCC53200E025000AF1566 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				701FCC5C200E02A800AF1566 /* Bid Cells */,
+				701FCC5A200E028C00AF1566 /* Dashboard Cell */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		701FCC5A200E028C00AF1566 /* Dashboard Cell */ = {
+			isa = PBXGroup;
+			children = (
+				701FCC54200E027600AF1566 /* DashboardTableViewCell.h */,
+				701FCC55200E027600AF1566 /* DashboardTableViewCell.m */,
+			);
+			path = "Dashboard Cell";
+			sourceTree = "<group>";
+		};
+		701FCC5C200E02A800AF1566 /* Bid Cells */ = {
+			isa = PBXGroup;
+			children = (
+				70179B92200F131F0072AC3F /* BidTableViewCell.h */,
+				70179B91200F131F0072AC3F /* BidTableViewCell.m */,
+			);
+			path = "Bid Cells";
+			sourceTree = "<group>";
+		};
+		701FCC5D200E13B100AF1566 /* Invites View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				701FCC5E200E13D700AF1566 /* InvitesViewController.h */,
+				701FCC5F200E13D700AF1566 /* InvitesViewController.m */,
+			);
+			path = "Invites View Controller";
+			sourceTree = "<group>";
+		};
+		701FCC61200E191800AF1566 /* Toiler Profile */ = {
+			isa = PBXGroup;
+			children = (
+				701FCC62200E193600AF1566 /* ToilerProfileViewController.h */,
+				701FCC63200E193600AF1566 /* ToilerProfileViewController.m */,
+			);
+			path = "Toiler Profile";
+			sourceTree = "<group>";
+		};
+		701FCC65200E196600AF1566 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				701FCC6E200E27FE00AF1566 /* EmployerChatListViewController.h */,
+				701FCC6F200E27FE00AF1566 /* EmployerChatListViewController.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		701FCC66200E1B5B00AF1566 /* Employer Profile */ = {
+			isa = PBXGroup;
+			children = (
+				701FCC67200E1B8D00AF1566 /* EmployerProfileViewController.h */,
+				701FCC68200E1B8D00AF1566 /* EmployerProfileViewController.m */,
+			);
+			path = "Employer Profile";
+			sourceTree = "<group>";
+		};
+		701FCC6D200E226D00AF1566 /* Employer Bid */ = {
+			isa = PBXGroup;
+			children = (
+				701FCC6A200E226400AF1566 /* EmployerBidViewController.h */,
+				701FCC6B200E226400AF1566 /* EmployerBidViewController.m */,
+			);
+			path = "Employer Bid";
+			sourceTree = "<group>";
+		};
+		702A78F52007DDFF00C2E7D4 /* Employer Personal Information */ = {
+			isa = PBXGroup;
+			children = (
+				702A78F62007DE5700C2E7D4 /* EmployerPersonalInformationViewController.h */,
+				702A78F72007DE5700C2E7D4 /* EmployerPersonalInformationViewController.m */,
+			);
+			path = "Employer Personal Information";
+			sourceTree = "<group>";
+		};
+		702A78F92007DF9300C2E7D4 /* Employer Profile Picture */ = {
+			isa = PBXGroup;
+			children = (
+				702A78FA2007DFCB00C2E7D4 /* EmployerProfilePictureViewController.h */,
+				702A78FB2007DFCB00C2E7D4 /* EmployerProfilePictureViewController.m */,
+			);
+			path = "Employer Profile Picture";
+			sourceTree = "<group>";
+		};
+		702A78FD2007E22E00C2E7D4 /* Employer OnBoarding Step 3 */ = {
+			isa = PBXGroup;
+			children = (
+				702A78FE2007E26400C2E7D4 /* Onboarding3ViewController.h */,
+				702A78FF2007E26400C2E7D4 /* Onboarding3ViewController.m */,
+			);
+			path = "Employer OnBoarding Step 3";
+			sourceTree = "<group>";
+		};
+		702A79012007E54B00C2E7D4 /* Employer Payment Setup */ = {
+			isa = PBXGroup;
+			children = (
+				702A79022007E57C00C2E7D4 /* EmployerPaymentSetupViewController.h */,
+				702A79032007E57C00C2E7D4 /* EmployerPaymentSetupViewController.m */,
+			);
+			path = "Employer Payment Setup";
+			sourceTree = "<group>";
+		};
+		702A79052007E5F000C2E7D4 /* Employer Complete */ = {
+			isa = PBXGroup;
+			children = (
+				702A79062007E6E200C2E7D4 /* EmployerCompleteViewController.h */,
+				702A79072007E6E200C2E7D4 /* EmployerCompleteViewController.m */,
+			);
+			path = "Employer Complete";
+			sourceTree = "<group>";
+		};
+		7037BFAC2011B8220064B229 /* Toiler Details */ = {
+			isa = PBXGroup;
+			children = (
+				7037BFAD2011B8410064B229 /* ToilerDetailsViewController.h */,
+				7037BFAE2011B8410064B229 /* ToilerDetailsViewController.m */,
+			);
+			path = "Toiler Details";
+			sourceTree = "<group>";
+		};
+		704619CE2014FD42002BB09D /* Invite Details */ = {
+			isa = PBXGroup;
+			children = (
+				704619CF2014FD5C002BB09D /* InviteDetailsViewController.h */,
+				704619D02014FD5C002BB09D /* InviteDetailsViewController.m */,
+			);
+			path = "Invite Details";
+			sourceTree = "<group>";
+		};
+		704619D22014FDA5002BB09D /* Job Images */ = {
+			isa = PBXGroup;
+			children = (
+				704619D32014FDD0002BB09D /* JobImagesViewController.h */,
+				704619D42014FDD0002BB09D /* JobImagesViewController.m */,
+			);
+			path = "Job Images";
+			sourceTree = "<group>";
+		};
+		704619D620150456002BB09D /* Chat View */ = {
+			isa = PBXGroup;
+			children = (
+				7821F2FE2063B59A001390C9 /* ChatViewController.h */,
+				7821F2FF2063B59B001390C9 /* ChatViewController.m */,
+			);
+			path = "Chat View";
+			sourceTree = "<group>";
+		};
+		704DC652200F369100D72AB9 /* Employer Bid List */ = {
+			isa = PBXGroup;
+			children = (
+				704DC653200F36B800D72AB9 /* EmployerBidListViewController.h */,
+				704DC654200F36B800D72AB9 /* EmployerBidListViewController.m */,
+			);
+			path = "Employer Bid List";
+			sourceTree = "<group>";
+		};
+		704DC656200F50E500D72AB9 /* FontSizes Classes */ = {
+			isa = PBXGroup;
+			children = (
+				700DEAD420204A250044D843 /* TextView */,
+				70169BA22010A9E500A6CC32 /* TextView Regular */,
+				70169B9B2010A7FE00A6CC32 /* TextField Semi-Bold */,
+				70169B9A2010A7E500A6CC32 /* TextField Regular Size */,
+				70169B962010971A00A6CC32 /* Button Font Size Semi-Bold */,
+				70169B92201096BA00A6CC32 /* Button Font Size Regular */,
+				70169B912010969000A6CC32 /* Label Font Size Semi-Bold */,
+				70169B902010967800A6CC32 /* Label Font Size Bold */,
+				70169B8F2010965800A6CC32 /* Label Font Size Regular */,
+			);
+			path = "FontSizes Classes";
+			sourceTree = "<group>";
+		};
+		704DC65A200F68B300D72AB9 /* Employer Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				7052F5A92013BC220083B10B /* EmployerDashboardViewController.h */,
+				7052F5AA2013BC220083B10B /* EmployerDashboardViewController.m */,
+			);
+			name = "Employer Dashboard";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7052F5A42013BB360083B10B /* Toiler Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				7019D144200B54B50068E4E7 /* ToilerTabBarViewController.h */,
+				7019D145200B54B50068E4E7 /* ToilerTabBarViewController.m */,
+			);
+			path = "Toiler Tabbar";
+			sourceTree = "<group>";
+		};
+		7052F5A52013BB4C0083B10B /* Employer Tabar */ = {
+			isa = PBXGroup;
+			children = (
+				7052F5A62013BB980083B10B /* EmployerTabbarViewController.h */,
+				7052F5A72013BB980083B10B /* EmployerTabbarViewController.m */,
+			);
+			path = "Employer Tabar";
+			sourceTree = "<group>";
+		};
+		70D5B52A201A090700F04649 /* Button Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				70D5B52B201A092E00F04649 /* ButtonCollectionViewCell.h */,
+				70D5B52C201A092E00F04649 /* ButtonCollectionViewCell.m */,
+			);
+			path = "Button Collection View Cell";
+			sourceTree = "<group>";
+		};
+		70E1301E2008BE68001E3424 /* Json Files */ = {
+			isa = PBXGroup;
+			children = (
+				701D772920174F71001F375C /* Complete Lottie */,
+				701D772820174F4B001F375C /* Profile LOTTIE */,
+			);
+			path = "Json Files";
+			sourceTree = "<group>";
+		};
+		780BAF49202ACE0500DB135F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				780BAF47202ACDFD00DB135F /* Utility.h */,
+				780BAF46202ACDFD00DB135F /* Utility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		780F91C6203300BC001EACBB /* Toiler My Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				780F91C7203300BC001EACBB /* ToilerMyJobsViewController.h */,
+				780F91C8203300BC001EACBB /* ToilerMyJobsViewController.m */,
+			);
+			path = "Toiler My Jobs";
+			sourceTree = "<group>";
+		};
+		780F91CA203300D3001EACBB /* Employer My Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				780F91CB203300D3001EACBB /* EmployerMyJobsViewController.h */,
+				780F91CC203300D3001EACBB /* EmployerMyJobsViewController.m */,
+			);
+			path = "Employer My Jobs";
+			sourceTree = "<group>";
+		};
+		780F91CE203300DF001EACBB /* Active Job Details */ = {
+			isa = PBXGroup;
+			children = (
+				780DB9F22065239400F6031A /* ToilerActiveJobDetailsViewController.h */,
+				780DB9F32065239500F6031A /* ToilerActiveJobDetailsViewController.m */,
+				780F91CF203300DF001EACBB /* ActiveJobDetailsViewController.h */,
+				780F91D0203300DF001EACBB /* ActiveJobDetailsViewController.m */,
+			);
+			path = "Active Job Details";
+			sourceTree = "<group>";
+		};
+		780F91D2203300FF001EACBB /* Create Job */ = {
+			isa = PBXGroup;
+			children = (
+				780F91D3203300FF001EACBB /* CreateJobViewController.m */,
+				780F91D4203300FF001EACBB /* CreateJobViewController.h */,
+			);
+			path = "Create Job";
+			sourceTree = "<group>";
+		};
+		780F91D620330107001EACBB /* Send Invites */ = {
+			isa = PBXGroup;
+			children = (
+				780F91D720330107001EACBB /* SendInviteViewController.h */,
+				780F91D820330107001EACBB /* SendInviteViewController.m */,
+			);
+			path = "Send Invites";
+			sourceTree = "<group>";
+		};
+		780F91DA203302C7001EACBB /* Helper Validation Class */ = {
+			isa = PBXGroup;
+			children = (
+				780F91DB203302C7001EACBB /* LoginProcess.h */,
+				780F91DC203302C7001EACBB /* LoginProcess.m */,
+			);
+			path = "Helper Validation Class";
+			sourceTree = "<group>";
+		};
+		78286F242106F54D0073D021 /* black */ = {
+			isa = PBXGroup;
+			children = (
+				78286F252106F54E0073D021 /* Button Font Size Regular_Black */,
+				78286F282106F54E0073D021 /* Button Font Size Semi-Bold_Black */,
+				78286F2B2106F54E0073D021 /* TextView_Black */,
+				78286F2E2106F54E0073D021 /* Label Font Size Bold_Black */,
+				78286F312106F54E0073D021 /* TextView Regular_Black */,
+				78286F342106F54E0073D021 /* TextField Semi-Bold_Black */,
+				78286F372106F54E0073D021 /* Label Font Size Regular_Black */,
+				78286F3A2106F54E0073D021 /* TextField Regular Size_Black */,
+				78286F3D2106F54E0073D021 /* Label Font Size Semi-Bold_Black */,
+			);
+			name = black;
+			path = "FontSizes Classes/black";
+			sourceTree = "<group>";
+		};
+		78286F252106F54E0073D021 /* Button Font Size Regular_Black */ = {
+			isa = PBXGroup;
+			children = (
+				78286F262106F54E0073D021 /* ButtonFontSizeRegular_Black.h */,
+				78286F272106F54E0073D021 /* ButtonFontSizeRegular_Black.m */,
+			);
+			path = "Button Font Size Regular_Black";
+			sourceTree = "<group>";
+		};
+		78286F282106F54E0073D021 /* Button Font Size Semi-Bold_Black */ = {
+			isa = PBXGroup;
+			children = (
+				78286F292106F54E0073D021 /* ButtonFontSizeSemiBold_Black.h */,
+				78286F2A2106F54E0073D021 /* ButtonFontSizeSemiBold_Black.m */,
+			);
+			path = "Button Font Size Semi-Bold_Black";
+			sourceTree = "<group>";
+		};
+		78286F2B2106F54E0073D021 /* TextView_Black */ = {
+			isa = PBXGroup;
+			children = (
+				78286F2C2106F54E0073D021 /* TextViewR_Black.h */,
+				78286F2D2106F54E0073D021 /* TextViewR_Black.m */,
+			);
+			path = TextView_Black;
+			sourceTree = "<group>";
+		};
+		78286F2E2106F54E0073D021 /* Label Font Size Bold_Black */ = {
+			isa = PBXGroup;
+			children = (
+				78286F2F2106F54E0073D021 /* LabelFontBoldSize_Black.h */,
+				78286F302106F54E0073D021 /* LabelFontBoldSize_Black.m */,
+			);
+			path = "Label Font Size Bold_Black";
+			sourceTree = "<group>";
+		};
+		78286F312106F54E0073D021 /* TextView Regular_Black */ = {
+			isa = PBXGroup;
+			children = (
+				78286F322106F54E0073D021 /* TextViewRegularSize_Black.m */,
+				78286F332106F54E0073D021 /* TextViewRegularSize_Black.h */,
+			);
+			path = "TextView Regular_Black";
+			sourceTree = "<group>";
+		};
+		78286F342106F54E0073D021 /* TextField Semi-Bold_Black */ = {
+			isa = PBXGroup;
+			children = (
+				78286F352106F54E0073D021 /* TextFieldSemiBoldSize_Black.m */,
+				78286F362106F54E0073D021 /* TextFieldSemiBoldSize_Black.h */,
+			);
+			path = "TextField Semi-Bold_Black";
+			sourceTree = "<group>";
+		};
+		78286F372106F54E0073D021 /* Label Font Size Regular_Black */ = {
+			isa = PBXGroup;
+			children = (
+				78286F382106F54E0073D021 /* LabelFontSize_Black.h */,
+				78286F392106F54E0073D021 /* LabelFontSize_Black.m */,
+			);
+			path = "Label Font Size Regular_Black";
+			sourceTree = "<group>";
+		};
+		78286F3A2106F54E0073D021 /* TextField Regular Size_Black */ = {
+			isa = PBXGroup;
+			children = (
+				78286F3B2106F54E0073D021 /* TextFieldRegularSize_Black.h */,
+				78286F3C2106F54E0073D021 /* TextFieldRegularSize_Black.m */,
+			);
+			path = "TextField Regular Size_Black";
+			sourceTree = "<group>";
+		};
+		78286F3D2106F54E0073D021 /* Label Font Size Semi-Bold_Black */ = {
+			isa = PBXGroup;
+			children = (
+				78286F3E2106F54E0073D021 /* LabrlFontSizeSemiBold_Black.h */,
+				78286F3F2106F54E0073D021 /* LabrlFontSizeSemiBold_Black.m */,
+			);
+			path = "Label Font Size Semi-Bold_Black";
+			sourceTree = "<group>";
+		};
+		7878E25C2089C95300EC71C0 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				7878E2602089CCE500EC71C0 /* Colors.h */,
+				7878E25D2089C96A00EC71C0 /* CreditCardViewController.h */,
+				7878E25E2089C96B00EC71C0 /* CreditCardViewController.m */,
+				786D001020D24A9D00D29F0B /* CardCell.h */,
+				786D001120D24A9D00D29F0B /* CardCell.m */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		8B70F3282005DAD90083A9D3 = {
+			isa = PBXGroup;
+			children = (
+				78112D49203ECE1400EA1BEE /* My Location.gpx */,
+				8B70F3332005DADA0083A9D3 /* Toil Life */,
+				8B70F3322005DADA0083A9D3 /* Products */,
+				1141868461533C6D3FF3D853 /* Frameworks */,
+				9EBECA94D227F1AB17CE9543 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8B70F3322005DADA0083A9D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B70F3312005DADA0083A9D3 /* Toil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B70F3332005DADA0083A9D3 /* Toil Life */ = {
+			isa = PBXGroup;
+			children = (
+				780CA5F9207B36E600EAA8FD /* Toil Life.entitlements */,
+				780BAF49202ACE0500DB135F /* Utility */,
+				701C81F9201609A000B82F4B /* Navigation Controller Class */,
+				7010C1BD20146706001D578C /* Helper Class */,
+				70E1301E2008BE68001E3424 /* Json Files */,
+				8B70F36B2005FA340083A9D3 /* Fonts */,
+				70179B8C200F06710072AC3F /* Collection View Cell */,
+				7019D143200B54820068E4E7 /* TabBar Controller */,
+				701FCC53200E025000AF1566 /* Table View Cells */,
+				8B70F3662005F88C0083A9D3 /* View Controllers */,
+				780EA0A2202DA5CE0085B31F /* Main.storyboard */,
+				780EA09F202D9F960085B31F /* AppDelegate.h */,
+				780EA09E202D9F960085B31F /* AppDelegate.m */,
+				780EA09C202D9E670085B31F /* StoryboardX.storyboard */,
+				8B70F33D2005DADA0083A9D3 /* Assets.xcassets */,
+				8B70F33F2005DADA0083A9D3 /* LaunchScreen.storyboard */,
+				8B70F3422005DADA0083A9D3 /* Info.plist */,
+				8B70F3432005DADA0083A9D3 /* main.m */,
+				8B7EFDD120071B7800D1A259 /* ToilLifePrefixHeader.pch */,
+			);
+			path = "Toil Life";
+			sourceTree = "<group>";
+		};
+		8B70F3662005F88C0083A9D3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7878E25C2089C95300EC71C0 /* CardView */,
+				780F91D620330107001EACBB /* Send Invites */,
+				780F91D2203300FF001EACBB /* Create Job */,
+				780F91CE203300DF001EACBB /* Active Job Details */,
+				780F91CA203300D3001EACBB /* Employer My Jobs */,
+				780F91C6203300BC001EACBB /* Toiler My Jobs */,
+				700DEAD0201EE8F40044D843 /* Employer Bid Job Details */,
+				700DEACC201EE6610044D843 /* Employer Complete Job Details */,
+				701D7715201701D0001F375C /* Toiler Edit Profile Details */,
+				701D77112016FF21001F375C /* Edit Profile Details */,
+				701D770D2016FB8C001F375C /* Edit Occupation */,
+				701D77092016F5B6001F375C /* Edit ProfilePic */,
+				701C81F52015B73B00B82F4B /* Toiler Chat */,
+				704619D620150456002BB09D /* Chat View */,
+				704619D22014FDA5002BB09D /* Job Images */,
+				704619CE2014FD42002BB09D /* Invite Details */,
+				700F11AA2014FA3400D92E9E /* Bids Job Details */,
+				700F11A62014FA0400D92E9E /* Completed Job Details */,
+				7010C1C220146CCA001D578C /* Toiler Hire Now View Controller */,
+				7037BFAC2011B8220064B229 /* Toiler Details */,
+				704DC65A200F68B300D72AB9 /* Employer Dashboard */,
+				704DC652200F369100D72AB9 /* Employer Bid List */,
+				701FCC6D200E226D00AF1566 /* Employer Bid */,
+				701FCC66200E1B5B00AF1566 /* Employer Profile */,
+				701FCC65200E196600AF1566 /* Chat */,
+				701FCC61200E191800AF1566 /* Toiler Profile */,
+				701FCC5D200E13B100AF1566 /* Invites View Controller */,
+				701FCC4A200DD10800AF1566 /* Dashboard */,
+				702A79052007E5F000C2E7D4 /* Employer Complete */,
+				702A79012007E54B00C2E7D4 /* Employer Payment Setup */,
+				702A78FD2007E22E00C2E7D4 /* Employer OnBoarding Step 3 */,
+				702A78F92007DF9300C2E7D4 /* Employer Profile Picture */,
+				702A78F52007DDFF00C2E7D4 /* Employer Personal Information */,
+				8B70F38E20063B6D0083A9D3 /* Toiler Complete */,
+				8B70F38A20063B2B0083A9D3 /* Toiler Payment Setup */,
+				8B70F3862006345F0083A9D3 /* Toiler Profile Picture */,
+				8B70F382200628AC0083A9D3 /* Toiler Personal Information */,
+				8B70F37E20061BDA0083A9D3 /* Type of Users */,
+				8B70F37A200614B50083A9D3 /* Terms and Conditions */,
+				8B70F376200603850083A9D3 /* Login OTP */,
+				8B70F3672005F8970083A9D3 /* Login */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8B70F3672005F8970083A9D3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8B70F3682005F8AF0083A9D3 /* LoginViewController.h */,
+				8B70F3692005F8AF0083A9D3 /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8B70F36B2005FA340083A9D3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				78286F242106F54D0073D021 /* black */,
+				704DC656200F50E500D72AB9 /* FontSizes Classes */,
+				8B70F3702005FA490083A9D3 /* OpenSans-Bold.ttf */,
+				8B70F3752005FA490083A9D3 /* OpenSans-BoldItalic.ttf */,
+				8B70F36C2005FA480083A9D3 /* OpenSans-ExtraBold.ttf */,
+				8B70F36E2005FA480083A9D3 /* OpenSans-ExtraBoldItalic.ttf */,
+				70169B7D2010697800A6CC32 /* Montserrat-Bold.otf */,
+				8B70F3742005FA490083A9D3 /* OpenSans-Italic.ttf */,
+				8B70F36D2005FA480083A9D3 /* OpenSans-Light.ttf */,
+				8B70F3732005FA490083A9D3 /* OpenSans-LightItalic.ttf */,
+				8B70F36F2005FA490083A9D3 /* OpenSans-Regular.ttf */,
+				8B70F3722005FA490083A9D3 /* OpenSans-Semibold.ttf */,
+				8B70F3712005FA490083A9D3 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8B70F376200603850083A9D3 /* Login OTP */ = {
+			isa = PBXGroup;
+			children = (
+				8B70F377200603A50083A9D3 /* LoginOTPViewController.h */,
+				8B70F378200603A50083A9D3 /* LoginOTPViewController.m */,
+			);
+			path = "Login OTP";
+			sourceTree = "<group>";
+		};
+		8B70F37A200614B50083A9D3 /* Terms and Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				8B70F37B200614D90083A9D3 /* TermsandConditionsViewController.h */,
+				8B70F37C200614D90083A9D3 /* TermsandConditionsViewController.m */,
+			);
+			path = "Terms and Conditions";
+			sourceTree = "<group>";
+		};
+		8B70F37E20061BDA0083A9D3 /* Type of Users */ = {
+			isa = PBXGroup;
+			children = (
+				8B70F37F20061CE40083A9D3 /* TypeofUsersViewController.h */,
+				8B70F38020061CE40083A9D3 /* TypeofUsersViewController.m */,
+			);
+			path = "Type of Users";
+			sourceTree = "<group>";
+		};
+		8B70F382200628AC0083A9D3 /* Toiler Personal Information */ = {
+			isa = PBXGroup;
+			children = (
+				8B70F383200628E50083A9D3 /* ToilerPersonalInformationViewController.h */,
+				8B70F384200628E50083A9D3 /* ToilerPersonalInformationViewController.m */,
+			);
+			path = "Toiler Personal Information";
+			sourceTree = "<group>";
+		};
+		8B70F3862006345F0083A9D3 /* Toiler Profile Picture */ = {
+			isa = PBXGroup;
+			children = (
+				8B70F3872006348D0083A9D3 /* ToilerProfilePictureViewController.h */,
+				8B70F3882006348D0083A9D3 /* ToilerProfilePictureViewController.m */,
+			);
+			path = "Toiler Profile Picture";
+			sourceTree = "<group>";
+		};
+		8B70F38A20063B2B0083A9D3 /* Toiler Payment Setup */ = {
+			isa = PBXGroup;
+			children = (
+				8B70F38B20063B630083A9D3 /* ToilerPaymentSetupViewController.h */,
+				8B70F38C20063B630083A9D3 /* ToilerPaymentSetupViewController.m */,
+			);
+			path = "Toiler Payment Setup";
+			sourceTree = "<group>";
+		};
+		8B70F38E20063B6D0083A9D3 /* Toiler Complete */ = {
+			isa = PBXGroup;
+			children = (
+				8B70F38F20063B920083A9D3 /* ToilerCompleteViewController.h */,
+				8B70F39020063B920083A9D3 /* ToilerCompleteViewController.m */,
+			);
+			path = "Toiler Complete";
+			sourceTree = "<group>";
+		};
+		9EBECA94D227F1AB17CE9543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46389FF6A241116EAC4A164A /* Pods-Toil Life.debug.xcconfig */,
+				F818FE67C4CAC1F4856CD3C0 /* Pods-Toil Life.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B70F3302005DADA0083A9D3 /* Toil Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B70F35D2005DADA0083A9D3 /* Build configuration list for PBXNativeTarget "Toil Life" */;
+			buildPhases = (
+				C8C493D6763A6597B007336A /* [CP] Check Pods Manifest.lock */,
+				8B70F32D2005DADA0083A9D3 /* Sources */,
+				8B70F32E2005DADA0083A9D3 /* Frameworks */,
+				8B70F32F2005DADA0083A9D3 /* Resources */,
+				B8186C070B8C1D5A3FA74BF2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toil Life";
+			productName = "Toil Life";
+			productReference = 8B70F3312005DADA0083A9D3 /* Toil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B70F3292005DAD90083A9D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Developer;
+				TargetAttributes = {
+					8B70F3302005DADA0083A9D3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8B70F32C2005DAD90083A9D3 /* Build configuration list for PBXProject "Toil Life" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B70F3282005DAD90083A9D3;
+			productRefGroup = 8B70F3322005DADA0083A9D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B70F3302005DADA0083A9D3 /* Toil Life */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B70F32F2005DADA0083A9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780EA0A4202DA5CE0085B31F /* Main.storyboard in Resources */,
+				780EA0A1202DA5B70085B31F /* StoryboardX.storyboard in Resources */,
+				701D772420173EA6001F375C /* Body_Toil_Profile_picture.png in Resources */,
+				701D772520173EA6001F375C /* Hat_Toil_Profile_picture.png in Resources */,
+				70169B7F2010703000A6CC32 /* OpenSans-Bold.ttf in Resources */,
+				70169B802010703000A6CC32 /* OpenSans-BoldItalic.ttf in Resources */,
+				701D773620174FA7001F375C /* Planet_2_Toil_Launch_Animation.png in Resources */,
+				70169B812010703000A6CC32 /* OpenSans-ExtraBold.ttf in Resources */,
+				701D773920174FA7001F375C /* Star_3_Toil_Launch_Animation.png in Resources */,
+				701D773520174FA7001F375C /* Planet_1_Toil_Launch_Animation.png in Resources */,
+				70169B822010703000A6CC32 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				701D772320173EA6001F375C /* Mouth_Toil_Profile_picture.png in Resources */,
+				70169B832010703000A6CC32 /* OpenSans-Italic.ttf in Resources */,
+				70169B842010703000A6CC32 /* OpenSans-Light.ttf in Resources */,
+				70169B852010703000A6CC32 /* OpenSans-LightItalic.ttf in Resources */,
+				70169B862010703000A6CC32 /* OpenSans-Regular.ttf in Resources */,
+				701D773320174FA7001F375C /* data1.json in Resources */,
+				701D772220173EA6001F375C /* Eyes_Toil_Profile_picture.png in Resources */,
+				701D773420174FA7001F375C /* Star_2_Toil_Launch_Animation.png in Resources */,
+				70169B872010703000A6CC32 /* OpenSans-Semibold.ttf in Resources */,
+				701D773A20174FA7001F375C /* Star_4_Toil_Launch_Animation.png in Resources */,
+				70169B882010703000A6CC32 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				8B70F3412005DADA0083A9D3 /* LaunchScreen.storyboard in Resources */,
+				8B70F33E2005DADA0083A9D3 /* Assets.xcassets in Resources */,
+				701D772620173EA6001F375C /* Head_Toil_Profile_picture.png in Resources */,
+				701D772120173EA6001F375C /* data.json in Resources */,
+				701D773820174FA7001F375C /* Rocket_Toil_Launch_Animation.png in Resources */,
+				701D772720173EA6001F375C /* Background_Toil_Profile_picture.png in Resources */,
+				701D773720174FA7001F375C /* Star_1_Toil_Launch_Animation.png in Resources */,
+				70169B7E2010698000A6CC32 /* Montserrat-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8186C070B8C1D5A3FA74BF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Toil Life/Pods-Toil Life-resources.sh",
+				"${PODS_ROOT}/Harpy/Harpy/Harpy.bundle",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Assets/JSQMessagesAssets.bundle",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesViewController.xib",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.xib",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.xib",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.xib",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesToolbarContentView.xib",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.xib",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Harpy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesAssets.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesCollectionViewCellIncoming.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesCollectionViewCellOutgoing.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesLoadEarlierHeaderView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesToolbarContentView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesTypingIndicatorFooterView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Toil Life/Pods-Toil Life-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C493D6763A6597B007336A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Toil Life-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B70F32D2005DADA0083A9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7010C1C120146850001D578C /* NetworkEngine.m in Sources */,
+				780F91C9203300BD001EACBB /* ToilerMyJobsViewController.m in Sources */,
+				7010C1C520146D05001D578C /* ToilerHireNowViewController.m in Sources */,
+				702A79082007E6E200C2E7D4 /* EmployerCompleteViewController.m in Sources */,
+				701D770C2016F5E3001F375C /* EditProfilePicViewController.m in Sources */,
+				70169B9E2010A82F00A6CC32 /* TextFieldRegularSize.m in Sources */,
+				702A78F82007DE5700C2E7D4 /* EmployerPersonalInformationViewController.m in Sources */,
+				70169BA12010A86D00A6CC32 /* TextFieldSemiBoldSize.m in Sources */,
+				701FCC56200E027600AF1566 /* DashboardTableViewCell.m in Sources */,
+				70169B8E2010965500A6CC32 /* LabrlFontSizeSemiBold.m in Sources */,
+				70169B992010974B00A6CC32 /* ButtonFontSizeSemiBold.m in Sources */,
+				780BAF48202ACDFD00DB135F /* Utility.m in Sources */,
+				8B70F3442005DADA0083A9D3 /* main.m in Sources */,
+				780F91DD203302C7001EACBB /* LoginProcess.m in Sources */,
+				701D77142016FF50001F375C /* EditProfileDetailsViewController.m in Sources */,
+				7019D146200B54B50068E4E7 /* ToilerTabBarViewController.m in Sources */,
+				8B70F38D20063B630083A9D3 /* ToilerPaymentSetupViewController.m in Sources */,
+				702A78FC2007DFCB00C2E7D4 /* EmployerProfilePictureViewController.m in Sources */,
+				780DB9F42065239500F6031A /* ToilerActiveJobDetailsViewController.m in Sources */,
+				8B70F3892006348D0083A9D3 /* ToilerProfilePictureViewController.m in Sources */,
+				78286F422106F54E0073D021 /* TextViewR_Black.m in Sources */,
+				70169BA52010AA0E00A6CC32 /* TextViewRegularSize.m in Sources */,
+				7821F3002063B59B001390C9 /* ChatViewController.m in Sources */,
+				701FCC6C200E226400AF1566 /* EmployerBidViewController.m in Sources */,
+				700F11A92014FA2300D92E9E /* CompletedJobDetailsViewController.m in Sources */,
+				78286F412106F54E0073D021 /* ButtonFontSizeSemiBold_Black.m in Sources */,
+				8B70F37D200614D90083A9D3 /* TermsandConditionsViewController.m in Sources */,
+				780F91D1203300DF001EACBB /* ActiveJobDetailsViewController.m in Sources */,
+				7037BFAF2011B8410064B229 /* ToilerDetailsViewController.m in Sources */,
+				8B70F379200603A50083A9D3 /* LoginOTPViewController.m in Sources */,
+				701FCC4D200DD14200AF1566 /* ToilerDashboardViewController.m in Sources */,
+				70169B8B2010963000A6CC32 /* LabelFontBoldSize.m in Sources */,
+				704619DC20150A26002BB09D /* BidsJobDetailsViewController.m in Sources */,
+				786D001220D24A9D00D29F0B /* CardCell.m in Sources */,
+				701C81FC201609CE00B82F4B /* LoginNavigationViewController.m in Sources */,
+				78286F432106F54E0073D021 /* LabelFontBoldSize_Black.m in Sources */,
+				701FCC70200E27FE00AF1566 /* EmployerChatListViewController.m in Sources */,
+				780F91D5203300FF001EACBB /* CreateJobViewController.m in Sources */,
+				704619D52014FDD0002BB09D /* JobImagesViewController.m in Sources */,
+				780F91CD203300D3001EACBB /* EmployerMyJobsViewController.m in Sources */,
+				701FCC60200E13D700AF1566 /* InvitesViewController.m in Sources */,
+				70169B952010970F00A6CC32 /* ButtonFontSizeRegular.m in Sources */,
+				704DC659200F515400D72AB9 /* LabelFontSize.m in Sources */,
+				78286F462106F54E0073D021 /* LabelFontSize_Black.m in Sources */,
+				8B70F39120063B920083A9D3 /* ToilerCompleteViewController.m in Sources */,
+				7052F5AB2013BC220083B10B /* EmployerDashboardViewController.m in Sources */,
+				78286F452106F54E0073D021 /* TextFieldSemiBoldSize_Black.m in Sources */,
+				704DC655200F36B800D72AB9 /* EmployerBidListViewController.m in Sources */,
+				702A79002007E26400C2E7D4 /* Onboarding3ViewController.m in Sources */,
+				700DEACF201EE6B20044D843 /* EmployerCompleteJobDetailsViewController.m in Sources */,
+				70D5B52D201A092E00F04649 /* ButtonCollectionViewCell.m in Sources */,
+				8B70F38120061CE40083A9D3 /* TypeofUsersViewController.m in Sources */,
+				780EA0A0202D9F970085B31F /* AppDelegate.m in Sources */,
+				8B70F385200628E50083A9D3 /* ToilerPersonalInformationViewController.m in Sources */,
+				701D77102016FBE5001F375C /* EditOccupationViewController.m in Sources */,
+				701C81F82015B75600B82F4B /* ToilerChatViewController.m in Sources */,
+				780F91D920330107001EACBB /* SendInviteViewController.m in Sources */,
+				701D7718201701E6001F375C /* ToilerEditProfileDetailsViewController.m in Sources */,
+				78286F402106F54E0073D021 /* ButtonFontSizeRegular_Black.m in Sources */,
+				7052F5A82013BB980083B10B /* EmployerTabbarViewController.m in Sources */,
+				8B70F36A2005F8AF0083A9D3 /* LoginViewController.m in Sources */,
+				700DEAD720204A650044D843 /* TextViewR.m in Sources */,
+				7878E25F2089C96C00EC71C0 /* CreditCardViewController.m in Sources */,
+				70179B93200F13200072AC3F /* BidTableViewCell.m in Sources */,
+				701FCC64200E193600AF1566 /* ToilerProfileViewController.m in Sources */,
+				78286F472106F54E0073D021 /* TextFieldRegularSize_Black.m in Sources */,
+				701FCC69200E1B8D00AF1566 /* EmployerProfileViewController.m in Sources */,
+				780F919F2032F8E2001EACBB /* EmployerBidJobDetailsViewController.m in Sources */,
+				704619D12014FD5C002BB09D /* InviteDetailsViewController.m in Sources */,
+				702A79042007E57C00C2E7D4 /* EmployerPaymentSetupViewController.m in Sources */,
+				78286F482106F54E0073D021 /* LabrlFontSizeSemiBold_Black.m in Sources */,
+				70179B8F200F06A30072AC3F /* BidCollectionViewCell.m in Sources */,
+				78286F442106F54E0073D021 /* TextViewRegularSize_Black.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		780EA0A2202DA5CE0085B31F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780EA0A3202DA5CE0085B31F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B70F33F2005DADA0083A9D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B70F3402005DADA0083A9D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B70F35B2005DADA0083A9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B70F35C2005DADA0083A9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B70F35E2005DADA0083A9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46389FF6A241116EAC4A164A /* Pods-Toil Life.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Toil Life/Toil Life.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = ZG4AUSCT9T;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Toil Life/ToilLifePrefixHeader.pch";
+				INFOPLIST_FILE = "Toil Life/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toilLife;
+				PRODUCT_NAME = Toil;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8B70F35F2005DADA0083A9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F818FE67C4CAC1F4856CD3C0 /* Pods-Toil Life.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Toil Life/Toil Life.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = ZG4AUSCT9T;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Toil Life/ToilLifePrefixHeader.pch";
+				INFOPLIST_FILE = "Toil Life/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toilLife;
+				PRODUCT_NAME = Toil;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B70F32C2005DAD90083A9D3 /* Build configuration list for PBXProject "Toil Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B70F35B2005DADA0083A9D3 /* Debug */,
+				8B70F35C2005DADA0083A9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B70F35D2005DADA0083A9D3 /* Build configuration list for PBXNativeTarget "Toil Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B70F35E2005DADA0083A9D3 /* Debug */,
+				8B70F35F2005DADA0083A9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B70F3292005DAD90083A9D3 /* Project object */;
+}

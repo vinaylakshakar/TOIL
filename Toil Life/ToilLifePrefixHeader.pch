@@ -1,0 +1,128 @@
+//
+//  ToilLifePrefixHeader.pch
+//  Toil Life
+//
+//  Created by Developer on 11/01/18.
+//  Copyright © 2018 Developer. All rights reserved.
+//
+
+#ifndef ToilLifePrefixHeader_pch
+#define ToilLifePrefixHeader_pch
+
+#define kOFFSET_FOR_KEYBOARD 100.0
+
+#define IS_iPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_OS_8_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_iPHONE_5 (IS_IPHONE && ([[UIScreen mainScreen] bounds].size.height == 568.0) && ((IS_OS_8_OR_LATER && [UIScreen mainScreen].nativeScale == [UIScreen mainScreen].scale) || !IS_OS_8_OR_LATER))
+#define IS_STANDARD_IPHONE_6 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0  && IS_OS_8_OR_LATER && [UIScreen mainScreen].nativeScale == [UIScreen mainScreen].scale)
+#define IS_ZOOMED_IPHONE_6 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0 && IS_OS_8_OR_LATER && [UIScreen mainScreen].nativeScale > [UIScreen mainScreen].scale)
+#define IS_STANDARD_IPHONE_6_PLUS (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736.0)
+#define IS_ZOOMED_IPHONE_6_PLUS (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0 && IS_OS_8_OR_LATER && [UIScreen mainScreen].nativeScale < [UIScreen mainScreen].scale)
+#define IS_STANDARD_IPHONE_X (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 812.0)
+
+//vinay here-
+#define IS_IOS14orHIGHER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 14.0)
+
+#define        ORANGE_COLOR       [UIColor colorWithRed:255.0f/255.0f green:102.0f/255.0f blue:0.0f/255.0f alpha:1.0]
+#define        Grey_COLOR       [UIColor colorWithRed:216.0f/255.0f green:216.0f/255.0f blue:216.0f/255.0f alpha:1.0]
+#define        WHITE_COLOR       [UIColor colorWithRed:255.0f/255.0f green:255.0f/255.0f blue:255.0f/255.0f alpha:1.0]
+#define  SCALE_FACTOR_H 1
+
+//For Dev
+//#define kBaseURL @"http://54.87.43.135/ToilApiAsmx.asmx/"
+//#define kBaseMultipartUrl @"http://54.87.43.135/"
+//For Live
+#define kBaseURL @"https://api.toil.life/ToilApiAsmx.asmx/"
+#define kBaseMultipartUrl @"https://api.toil.life/"
+#define kAppDelegate (AppDelegate *)[[UIApplication sharedApplication] delegate]
+#define deviceId @"deviceId"
+#define USERDEFAULTS [NSUserDefaults standardUserDefaults]
+#define MobileNo @"MobileNo"
+#define clientSecretValue @"t0!lP$0J#c@"
+#define Token @"token"
+#define userData @"userData"
+#define AddressLatitude @"latitude"
+#define AddressLongitude @"longitude"
+//For Dev-
+//#define stripe_Client_id @"ca_AKLYNqNy5KLGKrPU1DAFYUV9Qq4lNaWV"
+//ca_GNOSLFjqu6aOokbd13FE7ClsveBxfrwV
+//for live
+#define stripe_Client_id @"ca_AKLYwuvAekWWoFas1GT2QGCT10BMBXJv"
+//For Dev-
+//#define stripe_Secret_Key @"sk_test_Hm2JDoMtDasCnC26nbLLupoN"
+//#define stripe_Publish_Key @"pk_test_oapU0xY1piZPwNh9fTRXJEiv"
+//For live-
+#define stripe_Secret_Key @"sk_live_QDVfRvGTOASpAph56YBZfaIx"
+#define stripe_Publish_Key @"pk_live_SNHPJWSHBsyKElEW1bHwN1vi"
+//Redirect-
+//#define stripe_redirect_uri @"http://3.214.38.142/StripeRedirectUrl.aspx"
+#define stripe_redirect_uri @"https://api.toil.life/StripeRedirectUrl.aspx"
+
+#pragma mark - View Controllers
+
+#import "EmployerBidJobDetailsViewController.h"
+#import "EmployerCompleteJobDetailsViewController.h"
+#import "LoginNavigationViewController.h"
+#import "ToilerEditProfileDetailsViewController.h"
+#import "EditProfileDetailsViewController.h"
+#import "EditOccupationViewController.h"
+#import "EditProfilePicViewController.h"
+#import "EmployerBidListViewController.h"
+#import "ChatViewController.h"
+#import "JobImagesViewController.h"
+#import "InviteDetailsViewController.h"
+#import "EmployerCompleteViewController.h"
+#import "EmployerPaymentSetupViewController.h"
+#import "EmployerCompleteViewController.h"
+#import "EmployerPaymentSetupViewController.h"
+#import "EmployerProfilePictureViewController.h"
+#import "CreateJobViewController.h"
+#import "SendInviteViewController.h"
+#import "ToilerDetailsViewController.h"
+#import "LoginViewController.h"
+#import "LoginOTPViewController.h"
+#import "TermsandConditionsViewController.h"
+#import "TypeofUsersViewController.h"
+#import "ToilerPersonalInformationViewController.h"
+#import "ToilerProfilePictureViewController.h"
+#import "ToilerPaymentSetupViewController.h"
+#import "ToilerCompleteViewController.h"
+#import "EmployerPersonalInformationViewController.h"
+#import "ToilerTabBarViewController.h"
+#import "EmployerTabbarViewController.h"
+#import "ToilerDashboardViewController.h"
+#import "Onboarding3ViewController.h"
+#import "BidsJobDetailsViewController.h"
+#import "ActiveJobDetailsViewController.h"
+#import "CompletedJobDetailsViewController.h"
+#import "AppDelegate.h"
+
+#pragma mark - tableview cells and Collectionview cell
+
+#import "BidTableViewCell.h"
+#import "DashboardTableViewCell.h"
+#import "BidCollectionViewCell.h"
+#import "ButtonCollectionViewCell.h"
+
+#pragma mark - Helper Classes
+
+#import "LoginProcess.h"
+#import "NetworkEngine.h"
+#import "Reachability.h"
+#import "Utility.h"
+#import <AFNetworking/AFNetworking.h>
+
+#pragma mark - Liberary
+
+#import <Lottie/Lottie.h>
+#import <MapKit/MapKit.h>
+#import "JPSThumbnailAnnotation.h"
+#import "MBProgressHUD.h"
+#import "UIImageView+WebCache.h"
+
+#import <UIKit/UIKit.h>
+
+#endif
+

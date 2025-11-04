@@ -1,0 +1,6 @@
+module Pods_Toil_Life {
+  umbrella header "Pods-Toil Life-umbrella.h"
+
+  export *
+  module * { export * }
+}
